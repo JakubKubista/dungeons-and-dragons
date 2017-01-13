@@ -1,0 +1,6 @@
+digraph "B:/Škola/VŠ/ZOO/1. semestr/Projekt/Projekt - Jakub Kubišta, EI/Projekt - Dungeons and Dragons" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  dir_73ff1689e0a34d14ee1a4d15fe5ec73f [shape=box, label="Projekt - Dungeons and Dragons", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_73ff1689e0a34d14ee1a4d15fe5ec73f.html"];
+}

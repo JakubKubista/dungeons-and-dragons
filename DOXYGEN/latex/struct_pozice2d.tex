@@ -1,0 +1,85 @@
+\hypertarget{struct_pozice2d}{\section{Pozice2d Struct Reference}
+\label{struct_pozice2d}\index{Pozice2d@{Pozice2d}}
+}
+
+
+Trida, ktera analyzuje lokaci, ve ktere se \hyperlink{class_hrdina}{Hrdina} nachazi.  
+
+
+
+
+{\ttfamily \#include $<$Pozice2d.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{struct_pozice2d_adbac3715165fb3216eaf250e3c9f2adb}{Pozice2d} ()
+\item 
+\hyperlink{struct_pozice2d_a4036a334c595a49b8a744272c5acc0e9}{Pozice2d} (int radek, int sloupec)
+\item 
+int \hyperlink{struct_pozice2d_af7e5542d50c4bf07074d33038bd48d75}{get\-Radek} ()
+\item 
+int \hyperlink{struct_pozice2d_ad7af4eb55f87498112ecd5ca56d70c20}{get\-Sloupec} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{struct_pozice2d_a8ae2a4f9f73a09127963ab072c6aaed0}{m\-\_\-radek}
+\item 
+int \hyperlink{struct_pozice2d_ab6a744127dd182633f77551b7240938f}{m\-\_\-sloupec}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Trida, ktera analyzuje lokaci, ve ktere se \hyperlink{class_hrdina}{Hrdina} nachazi. 
+
+Jelikoz je mapa vytvorena na zaklade matice, tak Hrdinovi musime vzdy priradit urcity radek a sloupec, muzeme mu nastavit startovni pozici nebo nechat 0,0. Vzdy se tride \hyperlink{class_hrdina}{Hrdina} meni \hyperlink{struct_pozice2d}{Pozice2d} jen o jednicku a to budto jen u sloupce nebo u radku. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{struct_pozice2d_adbac3715165fb3216eaf250e3c9f2adb}{\index{Pozice2d@{Pozice2d}!Pozice2d@{Pozice2d}}
+\index{Pozice2d@{Pozice2d}!Pozice2d@{Pozice2d}}
+\subsubsection[{Pozice2d}]{\setlength{\rightskip}{0pt plus 5cm}Pozice2d\-::\-Pozice2d (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{struct_pozice2d_adbac3715165fb3216eaf250e3c9f2adb}
+Bezparametricky konstruktor, ktery nam nastavi startovni pozici Hrdiny na (0,0), kdyz hrdinu vytvorime. \hypertarget{struct_pozice2d_a4036a334c595a49b8a744272c5acc0e9}{\index{Pozice2d@{Pozice2d}!Pozice2d@{Pozice2d}}
+\index{Pozice2d@{Pozice2d}!Pozice2d@{Pozice2d}}
+\subsubsection[{Pozice2d}]{\setlength{\rightskip}{0pt plus 5cm}Pozice2d\-::\-Pozice2d (
+\begin{DoxyParamCaption}
+\item[{int}]{radek, }
+\item[{int}]{sloupec}
+\end{DoxyParamCaption}
+)}}\label{struct_pozice2d_a4036a334c595a49b8a744272c5acc0e9}
+Parametricky konstruktor, diky kteremu muzeme nastavit pozici Hrdiny na lib. radek a sloupec v Objektove Hraci Desce. 
+
+\subsection{Member Function Documentation}
+\hypertarget{struct_pozice2d_af7e5542d50c4bf07074d33038bd48d75}{\index{Pozice2d@{Pozice2d}!get\-Radek@{get\-Radek}}
+\index{get\-Radek@{get\-Radek}!Pozice2d@{Pozice2d}}
+\subsubsection[{get\-Radek}]{\setlength{\rightskip}{0pt plus 5cm}int Pozice2d\-::get\-Radek (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{struct_pozice2d_af7e5542d50c4bf07074d33038bd48d75}
+/ Metoda, ktera nam vraci cislo radku \hypertarget{struct_pozice2d_ad7af4eb55f87498112ecd5ca56d70c20}{\index{Pozice2d@{Pozice2d}!get\-Sloupec@{get\-Sloupec}}
+\index{get\-Sloupec@{get\-Sloupec}!Pozice2d@{Pozice2d}}
+\subsubsection[{get\-Sloupec}]{\setlength{\rightskip}{0pt plus 5cm}int Pozice2d\-::get\-Sloupec (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{struct_pozice2d_ad7af4eb55f87498112ecd5ca56d70c20}
+/ Metoda, ktera nam vraci cislo radku 
+
+\subsection{Member Data Documentation}
+\hypertarget{struct_pozice2d_a8ae2a4f9f73a09127963ab072c6aaed0}{\index{Pozice2d@{Pozice2d}!m\-\_\-radek@{m\-\_\-radek}}
+\index{m\-\_\-radek@{m\-\_\-radek}!Pozice2d@{Pozice2d}}
+\subsubsection[{m\-\_\-radek}]{\setlength{\rightskip}{0pt plus 5cm}int Pozice2d\-::m\-\_\-radek}}\label{struct_pozice2d_a8ae2a4f9f73a09127963ab072c6aaed0}
+/ Instance radku \hyperlink{struct_pozice2d}{Pozice2d} tridy \hyperlink{class_hrdina}{Hrdina} \hypertarget{struct_pozice2d_ab6a744127dd182633f77551b7240938f}{\index{Pozice2d@{Pozice2d}!m\-\_\-sloupec@{m\-\_\-sloupec}}
+\index{m\-\_\-sloupec@{m\-\_\-sloupec}!Pozice2d@{Pozice2d}}
+\subsubsection[{m\-\_\-sloupec}]{\setlength{\rightskip}{0pt plus 5cm}int Pozice2d\-::m\-\_\-sloupec}}\label{struct_pozice2d_ab6a744127dd182633f77551b7240938f}
+/ Instance sloupce \hyperlink{struct_pozice2d}{Pozice2d} tridy \hyperlink{class_hrdina}{Hrdina} 
+
+The documentation for this struct was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+B\-:/Škola/\-VŠ/\-Z\-O\-O/1. semestr/\-Projekt/\-Projekt -\/ Jakub Kubišta, E\-I/\-Projekt -\/ Dungeons and Dragons/Pozice2d.\-h\item 
+B\-:/Škola/\-VŠ/\-Z\-O\-O/1. semestr/\-Projekt/\-Projekt -\/ Jakub Kubišta, E\-I/\-Projekt -\/ Dungeons and Dragons/Pozice2d.\-cpp\end{DoxyCompactItemize}

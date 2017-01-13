@@ -1,0 +1,115 @@
+\hypertarget{class_hrdina_director}{\section{Hrdina\-Director Class Reference}
+\label{class_hrdina_director}\index{Hrdina\-Director@{Hrdina\-Director}}
+}
+
+
+Trida, jejimz primarnim ucelem bylo zkraceni enorme dlouheho kodu tridy \hyperlink{class_hrdina}{Hrdina}.  
+
+
+
+
+{\ttfamily \#include $<$Hrdina\-Director.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_hrdina_director_a4a32c3c60e4f7556fbf123b50a9d2cf2}{Hrdina\-Director} ()
+\item 
+void \hyperlink{class_hrdina_director_a34948d661df782ac1e02869ececad993}{set\-Den} ()
+\item 
+int \hyperlink{class_hrdina_director_a10b6ab73100fd1219d181e7fe33d4ea7}{get\-Den} ()
+\item 
+void \hyperlink{class_hrdina_director_a78d79876d0d150617cde1a2f1ecf5b4e}{nadpis} ()
+\item 
+void \hyperlink{class_hrdina_director_a495472f8a3334d8068e7cf6b5662dcc3}{zvol\-Typ\-Hrdiny} (\hyperlink{class_hrdina}{Hrdina} $\ast$hero)
+\item 
+void \hyperlink{class_hrdina_director_a725fde5ddff1309278b2de948243e032}{vypis\-Inventar} (int volba)
+\item 
+void \hyperlink{class_hrdina_director_a1587d6d13db6a018d9f4b5e24221cf65}{inventar} (\hyperlink{class_hrdina}{Hrdina} $\ast$hero)
+\item 
+void \hyperlink{class_hrdina_director_a0147b158129d6c22c8bef2c15ca7f7c5}{odpocivej} (\hyperlink{class_hrdina}{Hrdina} $\ast$hero, \hyperlink{struct_pozice2d}{Pozice2d} $\ast$moje\-Pozice, \hyperlink{classmodel_hra_1_1_objektova_hraci_deska}{model\-Hra\-::\-Objektova\-Hraci\-Deska} $\ast$m\-\_\-hraci\-Deska)
+\item 
+\hyperlink{class_hrdina_director_ab4f4ca87fc194a17b3a8a17e49faeccb}{$\sim$\-Hrdina\-Director} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Trida, jejimz primarnim ucelem bylo zkraceni enorme dlouheho kodu tridy \hyperlink{class_hrdina}{Hrdina}. 
+
+Zaroven trida obsahuje pocitadlo dnu, umoznuje nam vytvoreni noveho Hrdiny, neboli nastaveni startovnich atributu tridy \hyperlink{class_hrdina}{Hrdina}. To funguje jako nabidka, ktera pres prikaz case vola dalsi metody zdedene z tridy \hyperlink{class_hrdina}{Hrdina} Builder. Dalsi jeho ucel je cele jadro inventare, volajici dalsi metody z jednotlivych trid Inventaru a samotneho Hrdiny. A nakonec, aby Hra nebyla tak obtizna, byla vytvorena metoda odpocivej. Princip je takovy, ze po mape jsou 4 odpocivadla, kde se muze \hyperlink{class_hrdina}{Hrdina}, bez interakce s neprateli, uzdravit. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_hrdina_director_a4a32c3c60e4f7556fbf123b50a9d2cf2}{\index{Hrdina\-Director@{Hrdina\-Director}!Hrdina\-Director@{Hrdina\-Director}}
+\index{Hrdina\-Director@{Hrdina\-Director}!HrdinaDirector@{Hrdina\-Director}}
+\subsubsection[{Hrdina\-Director}]{\setlength{\rightskip}{0pt plus 5cm}Hrdina\-Director\-::\-Hrdina\-Director (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_hrdina_director_a4a32c3c60e4f7556fbf123b50a9d2cf2}
+/ Bezparametricky konstruktor Directora, ktery nastavi ze je 1 den \hypertarget{class_hrdina_director_ab4f4ca87fc194a17b3a8a17e49faeccb}{\index{Hrdina\-Director@{Hrdina\-Director}!$\sim$\-Hrdina\-Director@{$\sim$\-Hrdina\-Director}}
+\index{$\sim$\-Hrdina\-Director@{$\sim$\-Hrdina\-Director}!HrdinaDirector@{Hrdina\-Director}}
+\subsubsection[{$\sim$\-Hrdina\-Director}]{\setlength{\rightskip}{0pt plus 5cm}Hrdina\-Director\-::$\sim$\-Hrdina\-Director (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_hrdina_director_ab4f4ca87fc194a17b3a8a17e49faeccb}
+/ Destruktor, ktery se vola pri smazani Hrdiny Directora 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_hrdina_director_a10b6ab73100fd1219d181e7fe33d4ea7}{\index{Hrdina\-Director@{Hrdina\-Director}!get\-Den@{get\-Den}}
+\index{get\-Den@{get\-Den}!HrdinaDirector@{Hrdina\-Director}}
+\subsubsection[{get\-Den}]{\setlength{\rightskip}{0pt plus 5cm}int Hrdina\-Director\-::get\-Den (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_hrdina_director_a10b6ab73100fd1219d181e7fe33d4ea7}
+/ Metoda, ktera vraci o ktery den se ve hre jedna \hypertarget{class_hrdina_director_a1587d6d13db6a018d9f4b5e24221cf65}{\index{Hrdina\-Director@{Hrdina\-Director}!inventar@{inventar}}
+\index{inventar@{inventar}!HrdinaDirector@{Hrdina\-Director}}
+\subsubsection[{inventar}]{\setlength{\rightskip}{0pt plus 5cm}void Hrdina\-Director\-::inventar (
+\begin{DoxyParamCaption}
+\item[{{\bf Hrdina} $\ast$}]{hero}
+\end{DoxyParamCaption}
+)}}\label{class_hrdina_director_a1587d6d13db6a018d9f4b5e24221cf65}
+Metoda, je opet funguje jako nabidka, ale tentokrat se jedna o nejvetsi nabidku z projektu, slozenou z 10 casti, vcetne vraceni do hlavniho menu. Prvni tri casti nam zobrazi typ inventare jaky chceme prohlizet. Moznosti jsou Inventar Lektvar, Inventar \hyperlink{class_zbran}{Zbran} a Inventar \hyperlink{class_zbroj}{Zbroj}. Dale menu Inventare umozni zavolat metodu vypij lektvar, ktera preda hodnoty Hrdinovi, coz je umozneno metodou prubeh\-Piti\-Lektvaru v Inventar Lektvar. Volba oblec \hyperlink{class_zbroj}{Zbroj} je na stejnem zaklade jako uchop \hyperlink{class_zbran}{Zbran}, obe tyto metody jsou volany ze tridy \hyperlink{class_hrdina}{Hrdina}, kde jsou take podrobne popsany. Nakonec muzeme jednotlive itemy z inventare zahodit, coz je vyreseno jednotlivymi metodami (zahod Lektvar,\hyperlink{class_zbran}{Zbran},\hyperlink{class_zbroj}{Zbroj}), ktere se nachazi v tridach jednotlivych Inventaru. \hypertarget{class_hrdina_director_a78d79876d0d150617cde1a2f1ecf5b4e}{\index{Hrdina\-Director@{Hrdina\-Director}!nadpis@{nadpis}}
+\index{nadpis@{nadpis}!HrdinaDirector@{Hrdina\-Director}}
+\subsubsection[{nadpis}]{\setlength{\rightskip}{0pt plus 5cm}void Hrdina\-Director\-::nadpis (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_hrdina_director_a78d79876d0d150617cde1a2f1ecf5b4e}
+/ Metoda, slouzici pouze k zobrazeni nadpisu Vytvoreni Hrdiny \hypertarget{class_hrdina_director_a0147b158129d6c22c8bef2c15ca7f7c5}{\index{Hrdina\-Director@{Hrdina\-Director}!odpocivej@{odpocivej}}
+\index{odpocivej@{odpocivej}!HrdinaDirector@{Hrdina\-Director}}
+\subsubsection[{odpocivej}]{\setlength{\rightskip}{0pt plus 5cm}void Hrdina\-Director\-::odpocivej (
+\begin{DoxyParamCaption}
+\item[{{\bf Hrdina} $\ast$}]{hero, }
+\item[{{\bf Pozice2d} $\ast$}]{moje\-Pozice, }
+\item[{{\bf model\-Hra\-::\-Objektova\-Hraci\-Deska} $\ast$}]{m\-\_\-hraci\-Deska}
+\end{DoxyParamCaption}
+)}}\label{class_hrdina_director_a0147b158129d6c22c8bef2c15ca7f7c5}
+Aby se hrac nemusel obavat, ze ho kazdym krokem neco zabije, byla vytvorena metoda, ktera mu doplni zivot. Tuto metodu vsak smi hrac zavolat pouze na urcitych mistech, presneji ve 4 Mistnostech. Metoda funguje jako nocleh, uzdravi vas a probudite se do noveho dne. Hra tak ziskava na efektivite. \hypertarget{class_hrdina_director_a34948d661df782ac1e02869ececad993}{\index{Hrdina\-Director@{Hrdina\-Director}!set\-Den@{set\-Den}}
+\index{set\-Den@{set\-Den}!HrdinaDirector@{Hrdina\-Director}}
+\subsubsection[{set\-Den}]{\setlength{\rightskip}{0pt plus 5cm}void Hrdina\-Director\-::set\-Den (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_hrdina_director_a34948d661df782ac1e02869ececad993}
+/ Metoda, za pomoci ktere zvysujeme pocet uhranych dnu \hypertarget{class_hrdina_director_a725fde5ddff1309278b2de948243e032}{\index{Hrdina\-Director@{Hrdina\-Director}!vypis\-Inventar@{vypis\-Inventar}}
+\index{vypis\-Inventar@{vypis\-Inventar}!HrdinaDirector@{Hrdina\-Director}}
+\subsubsection[{vypis\-Inventar}]{\setlength{\rightskip}{0pt plus 5cm}void Hrdina\-Director\-::vypis\-Inventar (
+\begin{DoxyParamCaption}
+\item[{int}]{volba}
+\end{DoxyParamCaption}
+)}}\label{class_hrdina_director_a725fde5ddff1309278b2de948243e032}
+/ Metoda, slouzici pouze k nastaveni volby. (Jaky nadpis chceme zobrazit.) \hypertarget{class_hrdina_director_a495472f8a3334d8068e7cf6b5662dcc3}{\index{Hrdina\-Director@{Hrdina\-Director}!zvol\-Typ\-Hrdiny@{zvol\-Typ\-Hrdiny}}
+\index{zvol\-Typ\-Hrdiny@{zvol\-Typ\-Hrdiny}!HrdinaDirector@{Hrdina\-Director}}
+\subsubsection[{zvol\-Typ\-Hrdiny}]{\setlength{\rightskip}{0pt plus 5cm}void Hrdina\-Director\-::zvol\-Typ\-Hrdiny (
+\begin{DoxyParamCaption}
+\item[{{\bf Hrdina} $\ast$}]{hero}
+\end{DoxyParamCaption}
+)}}\label{class_hrdina_director_a495472f8a3334d8068e7cf6b5662dcc3}
+Metoda, slouzici ke zvoleni typu Hrdiny, je vytvorena jako rada metod v projektu na zaklade prikazu case (nabidky). Po zvoleni hrdiny nas odkaze na jednoho ze tri potomku (Zlodej,\hyperlink{class_bojovnik}{Bojovnik},\hyperlink{class_mag}{Mag}), kteri maji za predka Hrdinu Buildera. 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+B\-:/Škola/\-VŠ/\-Z\-O\-O/1. semestr/\-Projekt/\-Projekt -\/ Jakub Kubišta, E\-I/\-Projekt -\/ Dungeons and Dragons/Hrdina\-Director.\-h\item 
+B\-:/Škola/\-VŠ/\-Z\-O\-O/1. semestr/\-Projekt/\-Projekt -\/ Jakub Kubišta, E\-I/\-Projekt -\/ Dungeons and Dragons/Hrdina\-Director.\-cpp\end{DoxyCompactItemize}

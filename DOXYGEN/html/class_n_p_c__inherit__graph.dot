@@ -1,0 +1,12 @@
+digraph "NPC"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="NPC",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Drak",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_drak.html",tooltip="Trida jenz je potomkem tridy NPC, dedi jeji ciste virtualni metody a jeji atributy. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Ork",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ork.html",tooltip="Trida jenz je potomkem tridy NPC, dedi jeji ciste virtualni metody a jeji atributy. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Vlk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_vlk.html",tooltip="Trida jenz je potomkem tridy NPC, dedi jeji ciste virtualni metody a jeji atributy. "];
+}

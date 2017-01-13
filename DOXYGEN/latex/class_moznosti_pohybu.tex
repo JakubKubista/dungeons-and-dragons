@@ -1,0 +1,40 @@
+\hypertarget{class_moznosti_pohybu}{\section{Moznosti\-Pohybu Class Reference}
+\label{class_moznosti_pohybu}\index{Moznosti\-Pohybu@{Moznosti\-Pohybu}}
+}
+
+
+Trida reprezentujici system pohybu ve hre.  
+
+
+
+
+{\ttfamily \#include $<$Moznosti\-Pohybu.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_moznosti_pohybu_a134cc45c1fb6e479f0e2f37ef3d8e4d8}{vypis\-Pohyb} (\hyperlink{class_hrdina}{Hrdina} $\ast$hero, \hyperlink{struct_pozice2d}{Pozice2d} $\ast$moje\-Pozice, \hyperlink{classmodel_hra_1_1_objektova_hraci_deska}{model\-Hra\-::\-Objektova\-Hraci\-Deska} $\ast$deska)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Trida reprezentujici system pohybu ve hre. 
+
+Napadu na vytvoreni pohybu bylo opravdu mnoho a uznavam ze toto reseni, co se objektoveho navrhu tyce neni rozhodne vzorove, presto sestaveni pohybu je staticke a pevne dane. Bylo narocne vytvorit logicke vyrazy tak aby byl pohyb bezchybny, ale pro pekne menu, ktere metoda obsahuje jsem se rozhodl pro tuto variantu. Pro vetsi mapu bych metodu rozhodne zmenil. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_moznosti_pohybu_a134cc45c1fb6e479f0e2f37ef3d8e4d8}{\index{Moznosti\-Pohybu@{Moznosti\-Pohybu}!vypis\-Pohyb@{vypis\-Pohyb}}
+\index{vypis\-Pohyb@{vypis\-Pohyb}!MoznostiPohybu@{Moznosti\-Pohybu}}
+\subsubsection[{vypis\-Pohyb}]{\setlength{\rightskip}{0pt plus 5cm}void Moznosti\-Pohybu\-::vypis\-Pohyb (
+\begin{DoxyParamCaption}
+\item[{{\bf Hrdina} $\ast$}]{hero, }
+\item[{{\bf Pozice2d} $\ast$}]{moje\-Pozice, }
+\item[{{\bf model\-Hra\-::\-Objektova\-Hraci\-Deska} $\ast$}]{deska}
+\end{DoxyParamCaption}
+)}}\label{class_moznosti_pohybu_a134cc45c1fb6e479f0e2f37ef3d8e4d8}
+Dlouha, presto originalni a ucina metoda, ktera organizuje moznosti pohybu v Objektove Hraci Desce. Omluva za dlouhy neroztrideny kod metody. Nejdrive zavola metodu nadpis\-Pohyb a dale za pomoci logickych operaci zobrazi kam se muzeme z dane lokace dostat. Logicke operace jsou dlouhe a snadno se v nich udela chyba pri takove sirce, proto jsou nekolikanasobne kontrolovany. Vzdy je moznost jit zpet do hlavni nabidky. Pod timto vystupem je volana metoda mapa\-Pohyb. Nyni za pomoci prikazu case, zvolime jestli chceme jit vlevo, vpravo, nahoru nebo dolu (podle toho co se zobrazi). A po stisknuti je metoda znovu osetrena za pomoci logickych operaci a presune nas do Mistnosti, ve ktere chceme byt, pokud na ni mame pozadovanou uroven. 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+B\-:/Škola/\-VŠ/\-Z\-O\-O/1. semestr/\-Projekt/\-Projekt -\/ Jakub Kubišta, E\-I/\-Projekt -\/ Dungeons and Dragons/Moznosti\-Pohybu.\-h\item 
+B\-:/Škola/\-VŠ/\-Z\-O\-O/1. semestr/\-Projekt/\-Projekt -\/ Jakub Kubišta, E\-I/\-Projekt -\/ Dungeons and Dragons/Moznosti\-Pohybu.\-cpp\end{DoxyCompactItemize}

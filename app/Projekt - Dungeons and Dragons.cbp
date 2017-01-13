@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Projekt - Dungeons and Dragons" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Projekt - Dungeons and Dragons" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Projekt - Dungeons and Dragons" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Boj.cpp" />
+		<Unit filename="Boj.h" />
+		<Unit filename="Bojovnik.cpp" />
+		<Unit filename="Bojovnik.h" />
+		<Unit filename="CivEngine.cpp" />
+		<Unit filename="CivEngine.h" />
+		<Unit filename="Drak.cpp" />
+		<Unit filename="Drak.h" />
+		<Unit filename="HraciDeska.cpp" />
+		<Unit filename="HraciDeska.h" />
+		<Unit filename="HraciPole.cpp" />
+		<Unit filename="HraciPole.h" />
+		<Unit filename="Hrdina.cpp" />
+		<Unit filename="Hrdina.h" />
+		<Unit filename="HrdinaBuilder.h" />
+		<Unit filename="HrdinaDirector.cpp" />
+		<Unit filename="HrdinaDirector.h" />
+		<Unit filename="InterakceNPC.cpp" />
+		<Unit filename="InterakceNPC.h" />
+		<Unit filename="InventarLektvar.cpp" />
+		<Unit filename="InventarLektvar.h" />
+		<Unit filename="InventarZbran.cpp" />
+		<Unit filename="InventarZbran.h" />
+		<Unit filename="InventarZbroj.cpp" />
+		<Unit filename="InventarZbroj.h" />
+		<Unit filename="Item.cpp" />
+		<Unit filename="Item.h" />
+		<Unit filename="ItemLektvar.cpp" />
+		<Unit filename="ItemLektvar.h" />
+		<Unit filename="ItemZbran.cpp" />
+		<Unit filename="ItemZbran.h" />
+		<Unit filename="ItemZbroj.cpp" />
+		<Unit filename="ItemZbroj.h" />
+		<Unit filename="LokaceItem.cpp" />
+		<Unit filename="LokaceItem.h" />
+		<Unit filename="LokaceNPC.cpp" />
+		<Unit filename="LokaceNPC.h" />
+		<Unit filename="Lovec.cpp" />
+		<Unit filename="Lovec.h" />
+		<Unit filename="Mag.cpp" />
+		<Unit filename="Mag.h" />
+		<Unit filename="MenuGUI.cpp" />
+		<Unit filename="MenuGUI.h" />
+		<Unit filename="Mistnost.cpp" />
+		<Unit filename="Mistnost.h" />
+		<Unit filename="MoznostiPohybu.cpp" />
+		<Unit filename="MoznostiPohybu.h" />
+		<Unit filename="NPC.cpp" />
+		<Unit filename="NPC.h" />
+		<Unit filename="ObjektovaHraciDeska.cpp" />
+		<Unit filename="ObjektovaHraciDeska.h" />
+		<Unit filename="Ork.cpp" />
+		<Unit filename="Ork.h" />
+		<Unit filename="Pozice2d.cpp" />
+		<Unit filename="Pozice2d.h" />
+		<Unit filename="PoziceItem.cpp" />
+		<Unit filename="PoziceItem.h" />
+		<Unit filename="PoziceNPC.cpp" />
+		<Unit filename="PoziceNPC.h" />
+		<Unit filename="Vlk.cpp" />
+		<Unit filename="Vlk.h" />
+		<Unit filename="Zbran.cpp" />
+		<Unit filename="Zbran.h" />
+		<Unit filename="Zbroj.cpp" />
+		<Unit filename="Zbroj.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

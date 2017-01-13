@@ -1,0 +1,142 @@
+\hypertarget{classmodel_hra_1_1_objektova_hraci_deska}{\section{model\-Hra\-:\-:Objektova\-Hraci\-Deska Class Reference}
+\label{classmodel_hra_1_1_objektova_hraci_deska}\index{model\-Hra\-::\-Objektova\-Hraci\-Deska@{model\-Hra\-::\-Objektova\-Hraci\-Deska}}
+}
+
+
+Trida reprezentuji hraci desku skladajici se z hernich poli, ktere jsou objekty.  
+
+
+
+
+{\ttfamily \#include $<$Objektova\-Hraci\-Deska.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classmodel_hra_1_1_objektova_hraci_deska_a8809779cc7206f9fff039f799b6a8e8e}{Objektova\-Hraci\-Deska} (const unsigned int pocet\-Radek, const unsigned int pocet\-Sloupcu)
+\item 
+\hyperlink{classmodel_hra_1_1_hraci_pole}{model\-Hra\-::\-Hraci\-Pole} $\ast$ \hyperlink{classmodel_hra_1_1_objektova_hraci_deska_a73fc0583e42148884f1ac6ce62fca35e}{vrat} (const unsigned int radek, const unsigned int sloupec, \hyperlink{struct_pozice2d}{Pozice2d} $\ast$moje\-Pozice)
+\item 
+void \hyperlink{classmodel_hra_1_1_objektova_hraci_deska_aebb886d503c425943ba4820cfa1ea1d4}{vloz} (const unsigned int radek, const unsigned int sloupec, \hyperlink{classmodel_hra_1_1_hraci_pole}{Hraci\-Pole} $\ast$pole)
+\item 
+int \hyperlink{classmodel_hra_1_1_objektova_hraci_deska_af993f2e238b1e3c7eb01bc985443c6b1}{zjisti} (const unsigned int radek, const unsigned int sloupec)
+\item 
+void \hyperlink{classmodel_hra_1_1_objektova_hraci_deska_ad31f1711192fabc3a025c9e9c6a617cc}{vypis\-Error} (const unsigned int radek, const unsigned int sloupe)
+\item 
+int \hyperlink{classmodel_hra_1_1_objektova_hraci_deska_a3a84214311a5c0c5791d83ea19729ff5}{get\-Pocet\-Radek} ()
+\item 
+int \hyperlink{classmodel_hra_1_1_objektova_hraci_deska_a776f549dfa55005e8bcf8223cbce56e0}{get\-Pocet\-Sloupcu} ()
+\item 
+void \hyperlink{classmodel_hra_1_1_objektova_hraci_deska_afdb06e56fd0e7f8a719c915074b4747b}{vypis\-Desku} ()
+\item 
+void \hyperlink{classmodel_hra_1_1_objektova_hraci_deska_ac5346b96691a3bd15c84dd6c8c21ad30}{vypis\-Mapu} ()
+\item 
+void \hyperlink{classmodel_hra_1_1_objektova_hraci_deska_a2cffa2008e6cb42f48cd1d901ab9b2b3}{odpocivadla} ()
+\item 
+void \hyperlink{classmodel_hra_1_1_objektova_hraci_deska_a351fbc53fbdd6b8e8acbf57fbae0ef76}{vymaz\-Desku} ()
+\begin{DoxyCompactList}\small\item\em Metoda mazajici jednotliva herni pole. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Trida reprezentuji hraci desku skladajici se z hernich poli, ktere jsou objekty. 
+
+Toto je nejdulezitejsi cast prikladu. Tato deska je schopna do sebe zapouzdrit zakladni chovani hraci desky. Vas herni engine by mohl tuto desku vyuzivat. Vyresite tim skladovani informaci o hernich polich a ziskate jiz nachystanou kostru pro polymorfni chovani. Budete si moci odvodit ruzne dalsi vlastni potomky tridy \hyperlink{classmodel_hra_1_1_hraci_pole}{Hraci\-Pole} a udelat tak desku plnou ruznych hernich \char`\"{}kamenu\char`\"{}. Samozrejme si libovolne doplnujte funkcionalitu zejmena do trody Herni\-Pole, aby hra fungovala jak potrebujete. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classmodel_hra_1_1_objektova_hraci_deska_a8809779cc7206f9fff039f799b6a8e8e}{\index{model\-Hra\-::\-Objektova\-Hraci\-Deska@{model\-Hra\-::\-Objektova\-Hraci\-Deska}!Objektova\-Hraci\-Deska@{Objektova\-Hraci\-Deska}}
+\index{Objektova\-Hraci\-Deska@{Objektova\-Hraci\-Deska}!modelHra::ObjektovaHraciDeska@{model\-Hra\-::\-Objektova\-Hraci\-Deska}}
+\subsubsection[{Objektova\-Hraci\-Deska}]{\setlength{\rightskip}{0pt plus 5cm}model\-Hra\-::\-Objektova\-Hraci\-Deska\-::\-Objektova\-Hraci\-Deska (
+\begin{DoxyParamCaption}
+\item[{const unsigned int}]{pocet\-Radek, }
+\item[{const unsigned int}]{pocet\-Sloupcu}
+\end{DoxyParamCaption}
+)}}\label{classmodel_hra_1_1_objektova_hraci_deska_a8809779cc7206f9fff039f799b6a8e8e}
+/ Konstruktor, ketry vytvori prazdne pole o predane velikosti 
+
+\subsection{Member Function Documentation}
+\hypertarget{classmodel_hra_1_1_objektova_hraci_deska_a3a84214311a5c0c5791d83ea19729ff5}{\index{model\-Hra\-::\-Objektova\-Hraci\-Deska@{model\-Hra\-::\-Objektova\-Hraci\-Deska}!get\-Pocet\-Radek@{get\-Pocet\-Radek}}
+\index{get\-Pocet\-Radek@{get\-Pocet\-Radek}!modelHra::ObjektovaHraciDeska@{model\-Hra\-::\-Objektova\-Hraci\-Deska}}
+\subsubsection[{get\-Pocet\-Radek}]{\setlength{\rightskip}{0pt plus 5cm}int model\-Hra\-::\-Objektova\-Hraci\-Deska\-::get\-Pocet\-Radek (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classmodel_hra_1_1_objektova_hraci_deska_a3a84214311a5c0c5791d83ea19729ff5}
+/ Vrati pocet radek matice (maximalni index je o jedno mensi) \hypertarget{classmodel_hra_1_1_objektova_hraci_deska_a776f549dfa55005e8bcf8223cbce56e0}{\index{model\-Hra\-::\-Objektova\-Hraci\-Deska@{model\-Hra\-::\-Objektova\-Hraci\-Deska}!get\-Pocet\-Sloupcu@{get\-Pocet\-Sloupcu}}
+\index{get\-Pocet\-Sloupcu@{get\-Pocet\-Sloupcu}!modelHra::ObjektovaHraciDeska@{model\-Hra\-::\-Objektova\-Hraci\-Deska}}
+\subsubsection[{get\-Pocet\-Sloupcu}]{\setlength{\rightskip}{0pt plus 5cm}int model\-Hra\-::\-Objektova\-Hraci\-Deska\-::get\-Pocet\-Sloupcu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classmodel_hra_1_1_objektova_hraci_deska_a776f549dfa55005e8bcf8223cbce56e0}
+/ Vrati pocet sloupcu matice (maximalni index je o jedno mensi) \hypertarget{classmodel_hra_1_1_objektova_hraci_deska_a2cffa2008e6cb42f48cd1d901ab9b2b3}{\index{model\-Hra\-::\-Objektova\-Hraci\-Deska@{model\-Hra\-::\-Objektova\-Hraci\-Deska}!odpocivadla@{odpocivadla}}
+\index{odpocivadla@{odpocivadla}!modelHra::ObjektovaHraciDeska@{model\-Hra\-::\-Objektova\-Hraci\-Deska}}
+\subsubsection[{odpocivadla}]{\setlength{\rightskip}{0pt plus 5cm}void model\-Hra\-::\-Objektova\-Hraci\-Deska\-::odpocivadla (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classmodel_hra_1_1_objektova_hraci_deska_a2cffa2008e6cb42f48cd1d901ab9b2b3}
+/ Vypise popisy jednotlivych odpocivadel, vcetne jejich souradnic \hypertarget{classmodel_hra_1_1_objektova_hraci_deska_aebb886d503c425943ba4820cfa1ea1d4}{\index{model\-Hra\-::\-Objektova\-Hraci\-Deska@{model\-Hra\-::\-Objektova\-Hraci\-Deska}!vloz@{vloz}}
+\index{vloz@{vloz}!modelHra::ObjektovaHraciDeska@{model\-Hra\-::\-Objektova\-Hraci\-Deska}}
+\subsubsection[{vloz}]{\setlength{\rightskip}{0pt plus 5cm}void model\-Hra\-::\-Objektova\-Hraci\-Deska\-::vloz (
+\begin{DoxyParamCaption}
+\item[{const unsigned int}]{radek, }
+\item[{const unsigned int}]{sloupec, }
+\item[{{\bf Hraci\-Pole} $\ast$}]{pole}
+\end{DoxyParamCaption}
+)}}\label{classmodel_hra_1_1_objektova_hraci_deska_aebb886d503c425943ba4820cfa1ea1d4}
+/ Vlozi novy objekt, ktery je potomkem tridy \hyperlink{classmodel_hra_1_1_hraci_pole}{Hraci\-Pole} na pozici v desce \hypertarget{classmodel_hra_1_1_objektova_hraci_deska_a73fc0583e42148884f1ac6ce62fca35e}{\index{model\-Hra\-::\-Objektova\-Hraci\-Deska@{model\-Hra\-::\-Objektova\-Hraci\-Deska}!vrat@{vrat}}
+\index{vrat@{vrat}!modelHra::ObjektovaHraciDeska@{model\-Hra\-::\-Objektova\-Hraci\-Deska}}
+\subsubsection[{vrat}]{\setlength{\rightskip}{0pt plus 5cm}{\bf model\-Hra\-::\-Hraci\-Pole} $\ast$ model\-Hra\-::\-Objektova\-Hraci\-Deska\-::vrat (
+\begin{DoxyParamCaption}
+\item[{const unsigned int}]{radek, }
+\item[{const unsigned int}]{sloupec, }
+\item[{{\bf Pozice2d} $\ast$}]{moje\-Pozice}
+\end{DoxyParamCaption}
+)}}\label{classmodel_hra_1_1_objektova_hraci_deska_a73fc0583e42148884f1ac6ce62fca35e}
+/ Pokud je to mozne, vrati objekt, ktery je na dane pozici v herni desce \hypertarget{classmodel_hra_1_1_objektova_hraci_deska_a351fbc53fbdd6b8e8acbf57fbae0ef76}{\index{model\-Hra\-::\-Objektova\-Hraci\-Deska@{model\-Hra\-::\-Objektova\-Hraci\-Deska}!vymaz\-Desku@{vymaz\-Desku}}
+\index{vymaz\-Desku@{vymaz\-Desku}!modelHra::ObjektovaHraciDeska@{model\-Hra\-::\-Objektova\-Hraci\-Deska}}
+\subsubsection[{vymaz\-Desku}]{\setlength{\rightskip}{0pt plus 5cm}void model\-Hra\-::\-Objektova\-Hraci\-Deska\-::vymaz\-Desku (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classmodel_hra_1_1_objektova_hraci_deska_a351fbc53fbdd6b8e8acbf57fbae0ef76}
+
+
+Metoda mazajici jednotliva herni pole. 
+
+Tato metoda je trochu zvlastni. Obvykle maze objekty ten, kdo je vytvari Ale v tomto pripade by to bylo komplikovane, proto vznikla tato specialni cistici metoda. \hypertarget{classmodel_hra_1_1_objektova_hraci_deska_afdb06e56fd0e7f8a719c915074b4747b}{\index{model\-Hra\-::\-Objektova\-Hraci\-Deska@{model\-Hra\-::\-Objektova\-Hraci\-Deska}!vypis\-Desku@{vypis\-Desku}}
+\index{vypis\-Desku@{vypis\-Desku}!modelHra::ObjektovaHraciDeska@{model\-Hra\-::\-Objektova\-Hraci\-Deska}}
+\subsubsection[{vypis\-Desku}]{\setlength{\rightskip}{0pt plus 5cm}void model\-Hra\-::\-Objektova\-Hraci\-Deska\-::vypis\-Desku (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classmodel_hra_1_1_objektova_hraci_deska_afdb06e56fd0e7f8a719c915074b4747b}
+/ Vypise popisy jednotlivych hracich poli, vcetne jejich obtiznosti na obrazovku \hypertarget{classmodel_hra_1_1_objektova_hraci_deska_ad31f1711192fabc3a025c9e9c6a617cc}{\index{model\-Hra\-::\-Objektova\-Hraci\-Deska@{model\-Hra\-::\-Objektova\-Hraci\-Deska}!vypis\-Error@{vypis\-Error}}
+\index{vypis\-Error@{vypis\-Error}!modelHra::ObjektovaHraciDeska@{model\-Hra\-::\-Objektova\-Hraci\-Deska}}
+\subsubsection[{vypis\-Error}]{\setlength{\rightskip}{0pt plus 5cm}void model\-Hra\-::\-Objektova\-Hraci\-Deska\-::vypis\-Error (
+\begin{DoxyParamCaption}
+\item[{const unsigned int}]{radek, }
+\item[{const unsigned int}]{sloupe}
+\end{DoxyParamCaption}
+)}}\label{classmodel_hra_1_1_objektova_hraci_deska_ad31f1711192fabc3a025c9e9c6a617cc}
+/ Pri zjisteni ze neni vypise chybovou chlasku \hypertarget{classmodel_hra_1_1_objektova_hraci_deska_ac5346b96691a3bd15c84dd6c8c21ad30}{\index{model\-Hra\-::\-Objektova\-Hraci\-Deska@{model\-Hra\-::\-Objektova\-Hraci\-Deska}!vypis\-Mapu@{vypis\-Mapu}}
+\index{vypis\-Mapu@{vypis\-Mapu}!modelHra::ObjektovaHraciDeska@{model\-Hra\-::\-Objektova\-Hraci\-Deska}}
+\subsubsection[{vypis\-Mapu}]{\setlength{\rightskip}{0pt plus 5cm}void model\-Hra\-::\-Objektova\-Hraci\-Deska\-::vypis\-Mapu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classmodel_hra_1_1_objektova_hraci_deska_ac5346b96691a3bd15c84dd6c8c21ad30}
+/ Vypise navrh kompletni mapy se vsemi castmi \hypertarget{classmodel_hra_1_1_objektova_hraci_deska_af993f2e238b1e3c7eb01bc985443c6b1}{\index{model\-Hra\-::\-Objektova\-Hraci\-Deska@{model\-Hra\-::\-Objektova\-Hraci\-Deska}!zjisti@{zjisti}}
+\index{zjisti@{zjisti}!modelHra::ObjektovaHraciDeska@{model\-Hra\-::\-Objektova\-Hraci\-Deska}}
+\subsubsection[{zjisti}]{\setlength{\rightskip}{0pt plus 5cm}int model\-Hra\-::\-Objektova\-Hraci\-Deska\-::zjisti (
+\begin{DoxyParamCaption}
+\item[{const unsigned int}]{radek, }
+\item[{const unsigned int}]{sloupec}
+\end{DoxyParamCaption}
+)}}\label{classmodel_hra_1_1_objektova_hraci_deska_af993f2e238b1e3c7eb01bc985443c6b1}
+/ Zjisti za objekt je nebo neni v desce 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+B\-:/Škola/\-VŠ/\-Z\-O\-O/1. semestr/\-Projekt/\-Projekt -\/ Jakub Kubišta, E\-I/\-Projekt -\/ Dungeons and Dragons/Objektova\-Hraci\-Deska.\-h\item 
+B\-:/Škola/\-VŠ/\-Z\-O\-O/1. semestr/\-Projekt/\-Projekt -\/ Jakub Kubišta, E\-I/\-Projekt -\/ Dungeons and Dragons/Objektova\-Hraci\-Deska.\-cpp\end{DoxyCompactItemize}

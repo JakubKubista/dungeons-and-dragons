@@ -1,0 +1,105 @@
+\hypertarget{classmodel_hra_1_1_hraci_pole}{\section{model\-Hra\-:\-:Hraci\-Pole Class Reference}
+\label{classmodel_hra_1_1_hraci_pole}\index{model\-Hra\-::\-Hraci\-Pole@{model\-Hra\-::\-Hraci\-Pole}}
+}
+
+
+Abstraktni trida predstavujici obecne herni pole.  
+
+
+
+
+{\ttfamily \#include $<$Hraci\-Pole.\-h$>$}
+
+
+
+Inheritance diagram for model\-Hra\-:\-:Hraci\-Pole\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classmodel_hra_1_1_hraci_pole_a869160bbc1c6a520a2fcbbd8afa0e886}{{\bfseries Hraci\-Pole} (std\-::string popis, int obtiznost)}\label{classmodel_hra_1_1_hraci_pole_a869160bbc1c6a520a2fcbbd8afa0e886}
+
+\item 
+virtual std\-::string \hyperlink{classmodel_hra_1_1_hraci_pole_a7477974f668c6e36faa834819ffd648f}{get\-Popis} ()=0
+\item 
+virtual int \hyperlink{classmodel_hra_1_1_hraci_pole_ad77602e295f86a8ff76a5ce4334876ca}{get\-Obtiznost} ()=0
+\item 
+virtual void \hyperlink{classmodel_hra_1_1_hraci_pole_a5a5ef6ed997c5235b6ebb5e0c7ef9396}{vypis\-Menu} (\hyperlink{class_hrdina}{Hrdina} $\ast$hero, \hyperlink{struct_pozice2d}{Pozice2d} $\ast$moje\-Pozice)=0
+\begin{DoxyCompactList}\small\item\em Metoda vracejici obranny bonus pro bojove jednotky, ktere na ni stoji. \end{DoxyCompactList}\item 
+virtual \hyperlink{classmodel_hra_1_1_hraci_pole_a6f9741160812d65a5de61fb7a0fc6cbe}{$\sim$\-Hraci\-Pole} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\-::string \hyperlink{classmodel_hra_1_1_hraci_pole_a6e86c5af171a2f94c46f8523ffc228aa}{m\-\_\-popis}
+\item 
+\hypertarget{classmodel_hra_1_1_hraci_pole_aa07209c5b59ec5d6cede5eb272af8717}{int {\bfseries m\-\_\-obtiznost}}\label{classmodel_hra_1_1_hraci_pole_aa07209c5b59ec5d6cede5eb272af8717}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Abstraktni trida predstavujici obecne herni pole. 
+
+Tato trida predstavuje obecne hraci pole. Toto pole se pouziva pouze pro dedeni ruznych konkretnich typu hracich poli. Slouzi hlavne k tomu, abychom mohli mit univerzalni ukazatel na libovolne hraci pole, dosadili si za nej co uzname za vhodne a pak provolavali ruzne implementace metod (polym.). Vytvarejte si vlastni potomky a doplnujte atributy a metody podle potreby. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classmodel_hra_1_1_hraci_pole_a6f9741160812d65a5de61fb7a0fc6cbe}{\index{model\-Hra\-::\-Hraci\-Pole@{model\-Hra\-::\-Hraci\-Pole}!$\sim$\-Hraci\-Pole@{$\sim$\-Hraci\-Pole}}
+\index{$\sim$\-Hraci\-Pole@{$\sim$\-Hraci\-Pole}!modelHra::HraciPole@{model\-Hra\-::\-Hraci\-Pole}}
+\subsubsection[{$\sim$\-Hraci\-Pole}]{\setlength{\rightskip}{0pt plus 5cm}model\-Hra\-::\-Hraci\-Pole\-::$\sim$\-Hraci\-Pole (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classmodel_hra_1_1_hraci_pole_a6f9741160812d65a5de61fb7a0fc6cbe}
+/ Tridy, ktere budou mit potomky by mely mit virt. dest., pak se zavola vzdy destruktor spravneho potomka 
+
+\subsection{Member Function Documentation}
+\hypertarget{classmodel_hra_1_1_hraci_pole_ad77602e295f86a8ff76a5ce4334876ca}{\index{model\-Hra\-::\-Hraci\-Pole@{model\-Hra\-::\-Hraci\-Pole}!get\-Obtiznost@{get\-Obtiznost}}
+\index{get\-Obtiznost@{get\-Obtiznost}!modelHra::HraciPole@{model\-Hra\-::\-Hraci\-Pole}}
+\subsubsection[{get\-Obtiznost}]{\setlength{\rightskip}{0pt plus 5cm}virtual int model\-Hra\-::\-Hraci\-Pole\-::get\-Obtiznost (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classmodel_hra_1_1_hraci_pole_ad77602e295f86a8ff76a5ce4334876ca}
+/ Testovaci metoda, ktera se dedi do vsech potomku 
+
+Implemented in \hyperlink{class_mistnost_a23b1b673d70e0d963b1784198a86b2d8}{Mistnost}.
+
+\hypertarget{classmodel_hra_1_1_hraci_pole_a7477974f668c6e36faa834819ffd648f}{\index{model\-Hra\-::\-Hraci\-Pole@{model\-Hra\-::\-Hraci\-Pole}!get\-Popis@{get\-Popis}}
+\index{get\-Popis@{get\-Popis}!modelHra::HraciPole@{model\-Hra\-::\-Hraci\-Pole}}
+\subsubsection[{get\-Popis}]{\setlength{\rightskip}{0pt plus 5cm}virtual std\-::string model\-Hra\-::\-Hraci\-Pole\-::get\-Popis (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classmodel_hra_1_1_hraci_pole_a7477974f668c6e36faa834819ffd648f}
+/ Testovaci metoda, ktera se dedi do vsech potomku 
+
+Implemented in \hyperlink{class_mistnost_a465f2f31dedde17a96bd4033b05a6ddf}{Mistnost}.
+
+\hypertarget{classmodel_hra_1_1_hraci_pole_a5a5ef6ed997c5235b6ebb5e0c7ef9396}{\index{model\-Hra\-::\-Hraci\-Pole@{model\-Hra\-::\-Hraci\-Pole}!vypis\-Menu@{vypis\-Menu}}
+\index{vypis\-Menu@{vypis\-Menu}!modelHra::HraciPole@{model\-Hra\-::\-Hraci\-Pole}}
+\subsubsection[{vypis\-Menu}]{\setlength{\rightskip}{0pt plus 5cm}virtual void model\-Hra\-::\-Hraci\-Pole\-::vypis\-Menu (
+\begin{DoxyParamCaption}
+\item[{{\bf Hrdina} $\ast$}]{hero, }
+\item[{{\bf Pozice2d} $\ast$}]{moje\-Pozice}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classmodel_hra_1_1_hraci_pole_a5a5ef6ed997c5235b6ebb5e0c7ef9396}
+
+
+Metoda vracejici obranny bonus pro bojove jednotky, ktere na ni stoji. 
+
+Toto je zcela nesmyslna metoda, jen ilustruje polymorfni chovani poli na hraci desce -\/ kazde pole nyni musi vracet obr. bonus vypocteny podle nejakeho kriteria -\/ pro les se pocita jinak, pro pole jinak atp. Pokud by existovala nejaka univerzalni metoda vypoctu, kterou by pouzivala vetsina poli, tak bychom ji udelali pouze virtualni a pouze v nekterem potomkovi prekryli. 
+
+Implemented in \hyperlink{class_mistnost_a5168a58b39e621a5d4c647d19f3ed5e2}{Mistnost}.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classmodel_hra_1_1_hraci_pole_a6e86c5af171a2f94c46f8523ffc228aa}{\index{model\-Hra\-::\-Hraci\-Pole@{model\-Hra\-::\-Hraci\-Pole}!m\-\_\-popis@{m\-\_\-popis}}
+\index{m\-\_\-popis@{m\-\_\-popis}!modelHra::HraciPole@{model\-Hra\-::\-Hraci\-Pole}}
+\subsubsection[{m\-\_\-popis}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string model\-Hra\-::\-Hraci\-Pole\-::m\-\_\-popis\hspace{0.3cm}{\ttfamily [protected]}}}\label{classmodel_hra_1_1_hraci_pole_a6e86c5af171a2f94c46f8523ffc228aa}
+/ Testovaci atribut, ktery se dedi do vsech potomku 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+B\-:/Škola/\-VŠ/\-Z\-O\-O/1. semestr/\-Projekt/\-Projekt -\/ Jakub Kubišta, E\-I/\-Projekt -\/ Dungeons and Dragons/Hraci\-Pole.\-h\item 
+B\-:/Škola/\-VŠ/\-Z\-O\-O/1. semestr/\-Projekt/\-Projekt -\/ Jakub Kubišta, E\-I/\-Projekt -\/ Dungeons and Dragons/Hraci\-Pole.\-cpp\end{DoxyCompactItemize}

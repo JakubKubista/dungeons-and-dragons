@@ -1,0 +1,226 @@
+\hypertarget{class_boj}{\section{Boj Class Reference}
+\label{class_boj}\index{Boj@{Boj}}
+}
+
+
+Trida, u ktere byly ocekavany cca 4 metody, ale pro prehledny a originalni boj ve hre bez grafickeho rozhrani byla vytvorena komplexnejsi moznost.  
+
+
+
+
+{\ttfamily \#include $<$Boj.\-h$>$}
+
+
+
+Inheritance diagram for Boj\-:
+
+
+Collaboration diagram for Boj\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_boj_a1238a812508e29c01ad088f3b7d84e56}{Boj} (std\-::string popis)
+\item 
+void \hyperlink{class_boj_a82ec663b877ba2bca5b3760f44870490}{zvyseni\-Urovne} (int uroven, int magie)
+\item 
+void \hyperlink{class_boj_a214cdbe6d7c12eac0b99881bb456bd32}{konec\-Hry} ()
+\item 
+void \hyperlink{class_boj_a08c2242243af723997ba1973c0a4d518}{set\-Aktualni\-Zivoty\-Hrdina} (float aktualni\-Zivoty\-Hrdina)
+\item 
+void \hyperlink{class_boj_a939d43165cb303faa26e2e9cee6c3048}{set\-Aktualni\-Zivoty\-N\-P\-C} (float aktualni\-Zivoty\-N\-P\-C)
+\item 
+void \hyperlink{class_boj_aeade8c851c9b5dfbbc42a27c95c70560}{set\-Kolo} (int kolo\-Bitvy)
+\item 
+void \hyperlink{class_boj_a91afe36bbc33874f70f3102f5d616ddd}{set\-Zisk\-Zkusenosti} (float zisk\-Zkusenosti)
+\item 
+void \hyperlink{class_boj_a48e4335781b5bec7c55ccab8aee6a328}{set\-Aktualni\-Ank\-Vzkriseni} (int aktualni\-Ank\-Vzkriseni)
+\item 
+float \hyperlink{class_boj_ac687348f6a982c860394fafb5d719171}{get\-Aktualni\-Zivoty\-Hrdina} ()
+\item 
+float \hyperlink{class_boj_a88d7f3f8c2bcad95d9ab4dc7f9c4b53f}{get\-Aktualni\-Zivoty\-N\-P\-C} ()
+\item 
+int \hyperlink{class_boj_adac217a4d30b5f4779389fb36469889e}{get\-Aktualni\-Ank\-Vzkriseni} ()
+\item 
+float \hyperlink{class_boj_ae3e26d29b461bc5c2b0ccc75775cafcb}{get\-Zisk\-Zkusenosti} ()
+\item 
+void \hyperlink{class_boj_aa72d5bc107c72076c2b78fa03b1d6304}{ziskej\-Zkusenosti} (\hyperlink{struct_pozice2d}{Pozice2d} $\ast$moje\-Pozice, \hyperlink{class_pozice_n_p_c}{Pozice\-N\-P\-C} $\ast$mistni\-N\-P\-C)
+\item 
+void \hyperlink{class_boj_a94616ab70c4bf63aa9e4c1e40a6d3961}{zautoc} (\hyperlink{struct_pozice2d}{Pozice2d} $\ast$moje\-Pozice, \hyperlink{class_pozice_n_p_c}{Pozice\-N\-P\-C} $\ast$mistni\-N\-P\-C, float max\-Zivoty\-H, int sila\-H, int obrana\-H, int magie\-H, int uroven\-H, std\-::string jmeno\-H)
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Trida, u ktere byly ocekavany cca 4 metody, ale pro prehledny a originalni boj ve hre bez grafickeho rozhrani byla vytvorena komplexnejsi moznost. 
+
+Dedi vsechny metody z Abstraktni tridy \hyperlink{class_interakce_n_p_c}{Interakce\-N\-P\-C} 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_boj_a1238a812508e29c01ad088f3b7d84e56}{\index{Boj@{Boj}!Boj@{Boj}}
+\index{Boj@{Boj}!Boj@{Boj}}
+\subsubsection[{Boj}]{\setlength{\rightskip}{0pt plus 5cm}Boj\-::\-Boj (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{popis}
+\end{DoxyParamCaption}
+)}}\label{class_boj_a1238a812508e29c01ad088f3b7d84e56}
+/ Konstruktor boje, ktery preda popis danemu atributu popis 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_boj_adac217a4d30b5f4779389fb36469889e}{\index{Boj@{Boj}!get\-Aktualni\-Ank\-Vzkriseni@{get\-Aktualni\-Ank\-Vzkriseni}}
+\index{get\-Aktualni\-Ank\-Vzkriseni@{get\-Aktualni\-Ank\-Vzkriseni}!Boj@{Boj}}
+\subsubsection[{get\-Aktualni\-Ank\-Vzkriseni}]{\setlength{\rightskip}{0pt plus 5cm}int Boj\-::get\-Aktualni\-Ank\-Vzkriseni (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_boj_adac217a4d30b5f4779389fb36469889e}
+/ Metoda, ktera vraci aktualni pocet Anku Vzkriseni 
+
+Implements \hyperlink{class_interakce_n_p_c}{Interakce\-N\-P\-C}.
+
+\hypertarget{class_boj_ac687348f6a982c860394fafb5d719171}{\index{Boj@{Boj}!get\-Aktualni\-Zivoty\-Hrdina@{get\-Aktualni\-Zivoty\-Hrdina}}
+\index{get\-Aktualni\-Zivoty\-Hrdina@{get\-Aktualni\-Zivoty\-Hrdina}!Boj@{Boj}}
+\subsubsection[{get\-Aktualni\-Zivoty\-Hrdina}]{\setlength{\rightskip}{0pt plus 5cm}float Boj\-::get\-Aktualni\-Zivoty\-Hrdina (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_boj_ac687348f6a982c860394fafb5d719171}
+/ Metoda, ktera vraci aktualni pocet Zivotu Hrdiny 
+
+Implements \hyperlink{class_interakce_n_p_c}{Interakce\-N\-P\-C}.
+
+\hypertarget{class_boj_a88d7f3f8c2bcad95d9ab4dc7f9c4b53f}{\index{Boj@{Boj}!get\-Aktualni\-Zivoty\-N\-P\-C@{get\-Aktualni\-Zivoty\-N\-P\-C}}
+\index{get\-Aktualni\-Zivoty\-N\-P\-C@{get\-Aktualni\-Zivoty\-N\-P\-C}!Boj@{Boj}}
+\subsubsection[{get\-Aktualni\-Zivoty\-N\-P\-C}]{\setlength{\rightskip}{0pt plus 5cm}float Boj\-::get\-Aktualni\-Zivoty\-N\-P\-C (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_boj_a88d7f3f8c2bcad95d9ab4dc7f9c4b53f}
+/ Metoda, ktera vraci aktualni pocet Zivotu \hyperlink{class_n_p_c}{N\-P\-C} 
+
+Implements \hyperlink{class_interakce_n_p_c}{Interakce\-N\-P\-C}.
+
+\hypertarget{class_boj_ae3e26d29b461bc5c2b0ccc75775cafcb}{\index{Boj@{Boj}!get\-Zisk\-Zkusenosti@{get\-Zisk\-Zkusenosti}}
+\index{get\-Zisk\-Zkusenosti@{get\-Zisk\-Zkusenosti}!Boj@{Boj}}
+\subsubsection[{get\-Zisk\-Zkusenosti}]{\setlength{\rightskip}{0pt plus 5cm}float Boj\-::get\-Zisk\-Zkusenosti (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_boj_ae3e26d29b461bc5c2b0ccc75775cafcb}
+/ Metoda, ktera vraci Zisk Zkusenosti z nynejsiho boje 
+
+Implements \hyperlink{class_interakce_n_p_c}{Interakce\-N\-P\-C}.
+
+\hypertarget{class_boj_a214cdbe6d7c12eac0b99881bb456bd32}{\index{Boj@{Boj}!konec\-Hry@{konec\-Hry}}
+\index{konec\-Hry@{konec\-Hry}!Boj@{Boj}}
+\subsubsection[{konec\-Hry}]{\setlength{\rightskip}{0pt plus 5cm}void Boj\-::konec\-Hry (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_boj_a214cdbe6d7c12eac0b99881bb456bd32}
+/ Metoda, ktera se nam zobrazi po ztrate vsech Anku Vzkriseni 
+
+Implements \hyperlink{class_interakce_n_p_c}{Interakce\-N\-P\-C}.
+
+\hypertarget{class_boj_a48e4335781b5bec7c55ccab8aee6a328}{\index{Boj@{Boj}!set\-Aktualni\-Ank\-Vzkriseni@{set\-Aktualni\-Ank\-Vzkriseni}}
+\index{set\-Aktualni\-Ank\-Vzkriseni@{set\-Aktualni\-Ank\-Vzkriseni}!Boj@{Boj}}
+\subsubsection[{set\-Aktualni\-Ank\-Vzkriseni}]{\setlength{\rightskip}{0pt plus 5cm}void Boj\-::set\-Aktualni\-Ank\-Vzkriseni (
+\begin{DoxyParamCaption}
+\item[{int}]{aktualni\-Ank\-Vzkriseni}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_boj_a48e4335781b5bec7c55ccab8aee6a328}
+/ Metoda, ve ktere nastavime pocet Anku Vzkriseni -\/ opet predame Hrdinovi 
+
+Implements \hyperlink{class_interakce_n_p_c}{Interakce\-N\-P\-C}.
+
+\hypertarget{class_boj_a08c2242243af723997ba1973c0a4d518}{\index{Boj@{Boj}!set\-Aktualni\-Zivoty\-Hrdina@{set\-Aktualni\-Zivoty\-Hrdina}}
+\index{set\-Aktualni\-Zivoty\-Hrdina@{set\-Aktualni\-Zivoty\-Hrdina}!Boj@{Boj}}
+\subsubsection[{set\-Aktualni\-Zivoty\-Hrdina}]{\setlength{\rightskip}{0pt plus 5cm}void Boj\-::set\-Aktualni\-Zivoty\-Hrdina (
+\begin{DoxyParamCaption}
+\item[{float}]{aktualni\-Zivoty\-Hrdina}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_boj_a08c2242243af723997ba1973c0a4d518}
+/ Metoda, ve ktere nastavime aktualni zivoty Hrdiny -\/ skrz predavani atributu z boje do Hrdiny 
+
+Implements \hyperlink{class_interakce_n_p_c}{Interakce\-N\-P\-C}.
+
+\hypertarget{class_boj_a939d43165cb303faa26e2e9cee6c3048}{\index{Boj@{Boj}!set\-Aktualni\-Zivoty\-N\-P\-C@{set\-Aktualni\-Zivoty\-N\-P\-C}}
+\index{set\-Aktualni\-Zivoty\-N\-P\-C@{set\-Aktualni\-Zivoty\-N\-P\-C}!Boj@{Boj}}
+\subsubsection[{set\-Aktualni\-Zivoty\-N\-P\-C}]{\setlength{\rightskip}{0pt plus 5cm}void Boj\-::set\-Aktualni\-Zivoty\-N\-P\-C (
+\begin{DoxyParamCaption}
+\item[{float}]{aktualni\-Zivoty\-N\-P\-C}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_boj_a939d43165cb303faa26e2e9cee6c3048}
+/ Metoda, ve ktere nastavime aktualni zivoty \hyperlink{class_n_p_c}{N\-P\-C} -\/ skrz predavani atributu z boje do \hyperlink{class_n_p_c}{N\-P\-C} 
+
+Implements \hyperlink{class_interakce_n_p_c}{Interakce\-N\-P\-C}.
+
+\hypertarget{class_boj_aeade8c851c9b5dfbbc42a27c95c70560}{\index{Boj@{Boj}!set\-Kolo@{set\-Kolo}}
+\index{set\-Kolo@{set\-Kolo}!Boj@{Boj}}
+\subsubsection[{set\-Kolo}]{\setlength{\rightskip}{0pt plus 5cm}void Boj\-::set\-Kolo (
+\begin{DoxyParamCaption}
+\item[{int}]{kolo\-Bitvy}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_boj_aeade8c851c9b5dfbbc42a27c95c70560}
+/ Metoda, ve ktere nastavime aktualni kolo bitvy 
+
+Implements \hyperlink{class_interakce_n_p_c}{Interakce\-N\-P\-C}.
+
+\hypertarget{class_boj_a91afe36bbc33874f70f3102f5d616ddd}{\index{Boj@{Boj}!set\-Zisk\-Zkusenosti@{set\-Zisk\-Zkusenosti}}
+\index{set\-Zisk\-Zkusenosti@{set\-Zisk\-Zkusenosti}!Boj@{Boj}}
+\subsubsection[{set\-Zisk\-Zkusenosti}]{\setlength{\rightskip}{0pt plus 5cm}void Boj\-::set\-Zisk\-Zkusenosti (
+\begin{DoxyParamCaption}
+\item[{float}]{zisk\-Zkusenosti}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_boj_a91afe36bbc33874f70f3102f5d616ddd}
+/ Metoda, ve ktere nastavime zisk zkusenosti z boje, ktere vezmeme z atributu \hyperlink{class_n_p_c}{N\-P\-C} a predame Hrdinovi 
+
+Implements \hyperlink{class_interakce_n_p_c}{Interakce\-N\-P\-C}.
+
+\hypertarget{class_boj_a94616ab70c4bf63aa9e4c1e40a6d3961}{\index{Boj@{Boj}!zautoc@{zautoc}}
+\index{zautoc@{zautoc}!Boj@{Boj}}
+\subsubsection[{zautoc}]{\setlength{\rightskip}{0pt plus 5cm}void Boj\-::zautoc (
+\begin{DoxyParamCaption}
+\item[{{\bf Pozice2d} $\ast$}]{moje\-Pozice, }
+\item[{{\bf Pozice\-N\-P\-C} $\ast$}]{mistni\-N\-P\-C, }
+\item[{float}]{max\-Zivoty\-H, }
+\item[{int}]{sila\-H, }
+\item[{int}]{obrana\-H, }
+\item[{int}]{magie\-H, }
+\item[{int}]{uroven\-H, }
+\item[{std\-::string}]{jmeno\-H}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_boj_a94616ab70c4bf63aa9e4c1e40a6d3961}
+Komplexni metoda, ktera ridy cely boj, po predani vsech potrebnych atributu zjistime pomoci vzorce uder Hrdiny a \hyperlink{class_n_p_c}{N\-P\-C}, ktery pak odebira Zivoty. Na prvni pohled ve hre se zda ze je boj resen pres cyklus, ale jsou to ciste podminky. Po povrzeni ze chceme utocit nejdrive \hyperlink{class_hrdina}{Hrdina} ubere Zivoty \hyperlink{class_n_p_c}{N\-P\-C} a pokud to \hyperlink{class_n_p_c}{N\-P\-C} prezilo tak to hrdinovy oplati, pomoci jejich uderu nakonec je hrdina bud porazen a zavola se metoda Prohra nebo utece nebo Vitezi 
+
+Implements \hyperlink{class_interakce_n_p_c}{Interakce\-N\-P\-C}.
+
+\hypertarget{class_boj_aa72d5bc107c72076c2b78fa03b1d6304}{\index{Boj@{Boj}!ziskej\-Zkusenosti@{ziskej\-Zkusenosti}}
+\index{ziskej\-Zkusenosti@{ziskej\-Zkusenosti}!Boj@{Boj}}
+\subsubsection[{ziskej\-Zkusenosti}]{\setlength{\rightskip}{0pt plus 5cm}void Boj\-::ziskej\-Zkusenosti (
+\begin{DoxyParamCaption}
+\item[{{\bf Pozice2d} $\ast$}]{moje\-Pozice, }
+\item[{{\bf Pozice\-N\-P\-C} $\ast$}]{mistni\-N\-P\-C}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_boj_aa72d5bc107c72076c2b78fa03b1d6304}
+/ Metoda, ktera preda z Mistniho \hyperlink{class_n_p_c}{N\-P\-C} do atributu pocet Zkusenosti, ktere predavame Hrdinovi 
+
+Implements \hyperlink{class_interakce_n_p_c}{Interakce\-N\-P\-C}.
+
+\hypertarget{class_boj_a82ec663b877ba2bca5b3760f44870490}{\index{Boj@{Boj}!zvyseni\-Urovne@{zvyseni\-Urovne}}
+\index{zvyseni\-Urovne@{zvyseni\-Urovne}!Boj@{Boj}}
+\subsubsection[{zvyseni\-Urovne}]{\setlength{\rightskip}{0pt plus 5cm}void Boj\-::zvyseni\-Urovne (
+\begin{DoxyParamCaption}
+\item[{int}]{uroven, }
+\item[{int}]{magie}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_boj_a82ec663b877ba2bca5b3760f44870490}
+/ Metoda, ktera nam po nabiti potrebnych zkusenosti zobrazi novou uroven a bonus atributy 
+
+Implements \hyperlink{class_interakce_n_p_c}{Interakce\-N\-P\-C}.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+B\-:/Škola/\-VŠ/\-Z\-O\-O/1. semestr/\-Projekt/\-Projekt -\/ Jakub Kubišta, E\-I/\-Projekt -\/ Dungeons and Dragons/Boj.\-h\item 
+B\-:/Škola/\-VŠ/\-Z\-O\-O/1. semestr/\-Projekt/\-Projekt -\/ Jakub Kubišta, E\-I/\-Projekt -\/ Dungeons and Dragons/Boj.\-cpp\end{DoxyCompactItemize}

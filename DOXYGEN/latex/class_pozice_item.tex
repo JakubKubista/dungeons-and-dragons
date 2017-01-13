@@ -1,0 +1,119 @@
+\hypertarget{class_pozice_item}{\section{Pozice\-Item Class Reference}
+\label{class_pozice_item}\index{Pozice\-Item@{Pozice\-Item}}
+}
+
+
+Trida, ktera je zalozena na Objektove Hraci Deskce, slouzi k urceni pozic Itemu.  
+
+
+
+
+{\ttfamily \#include $<$Pozice\-Item.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_pozice_item_aa5b04d84d119a08e8feac77743ee26f4}{Pozice\-Item} (const unsigned int pocet\-Radek, const unsigned int pocet\-Sloupcu)
+\item 
+\hyperlink{class_item}{Item} $\ast$ \hyperlink{class_pozice_item_a7abaef3b977c76bd2bb2b3ea567b88aa}{vrat\-Item} (const unsigned int radek, const unsigned int sloupec)
+\item 
+void \hyperlink{class_pozice_item_a4a0eb4d3b54b6600b216e6a8915d6a3c}{vloz\-Item} (const unsigned int radek, const unsigned int sloupec, \hyperlink{class_item}{Item} $\ast$vec)
+\item 
+int \hyperlink{class_pozice_item_a6435a58a36022e5fa883e14805de44a7}{zjisti\-Item} (const unsigned int radek, const unsigned int sloupec)
+\item 
+void \hyperlink{class_pozice_item_ad6685f316a930a8255d4d703ecd95c9d}{neni\-Item} ()
+\item 
+int \hyperlink{class_pozice_item_a448bef98fa9f5529c49ba079d2582e12}{get\-Pocet\-Radek} ()
+\item 
+int \hyperlink{class_pozice_item_a1cfbfc3f94cade75e314b4a0c5351775}{get\-Pocet\-Sloupcu} ()
+\item 
+void \hyperlink{class_pozice_item_a5a67efe5b7ada1af96f618af19e0d5bc}{vymaz\-Konkretni\-Item} (const unsigned int radek, const unsigned int sloupec)
+\item 
+void \hyperlink{class_pozice_item_a3c4ee689eb7e971119012af3f49ad568}{vymaz\-Vsechny\-Itemy} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Trida, ktera je zalozena na Objektove Hraci Deskce, slouzi k urceni pozic Itemu. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_pozice_item_aa5b04d84d119a08e8feac77743ee26f4}{\index{Pozice\-Item@{Pozice\-Item}!Pozice\-Item@{Pozice\-Item}}
+\index{Pozice\-Item@{Pozice\-Item}!PoziceItem@{Pozice\-Item}}
+\subsubsection[{Pozice\-Item}]{\setlength{\rightskip}{0pt plus 5cm}Pozice\-Item\-::\-Pozice\-Item (
+\begin{DoxyParamCaption}
+\item[{const unsigned int}]{pocet\-Radek, }
+\item[{const unsigned int}]{pocet\-Sloupcu}
+\end{DoxyParamCaption}
+)}}\label{class_pozice_item_aa5b04d84d119a08e8feac77743ee26f4}
+/ Konstruktor, ketry vytvori prazdne pole o predane velikosti 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_pozice_item_a448bef98fa9f5529c49ba079d2582e12}{\index{Pozice\-Item@{Pozice\-Item}!get\-Pocet\-Radek@{get\-Pocet\-Radek}}
+\index{get\-Pocet\-Radek@{get\-Pocet\-Radek}!PoziceItem@{Pozice\-Item}}
+\subsubsection[{get\-Pocet\-Radek}]{\setlength{\rightskip}{0pt plus 5cm}int Pozice\-Item\-::get\-Pocet\-Radek (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_pozice_item_a448bef98fa9f5529c49ba079d2582e12}
+/ Vrati pocet radek matice (maximalni index je o jedno mensi) \hypertarget{class_pozice_item_a1cfbfc3f94cade75e314b4a0c5351775}{\index{Pozice\-Item@{Pozice\-Item}!get\-Pocet\-Sloupcu@{get\-Pocet\-Sloupcu}}
+\index{get\-Pocet\-Sloupcu@{get\-Pocet\-Sloupcu}!PoziceItem@{Pozice\-Item}}
+\subsubsection[{get\-Pocet\-Sloupcu}]{\setlength{\rightskip}{0pt plus 5cm}int Pozice\-Item\-::get\-Pocet\-Sloupcu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_pozice_item_a1cfbfc3f94cade75e314b4a0c5351775}
+/ Vrati pocet sloupcu matice (maximalni index je o jedno mensi) \hypertarget{class_pozice_item_ad6685f316a930a8255d4d703ecd95c9d}{\index{Pozice\-Item@{Pozice\-Item}!neni\-Item@{neni\-Item}}
+\index{neni\-Item@{neni\-Item}!PoziceItem@{Pozice\-Item}}
+\subsubsection[{neni\-Item}]{\setlength{\rightskip}{0pt plus 5cm}void Pozice\-Item\-::neni\-Item (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_pozice_item_ad6685f316a930a8255d4d703ecd95c9d}
+/ Hlaska, ze \hyperlink{class_item}{Item} neexistuje \hypertarget{class_pozice_item_a4a0eb4d3b54b6600b216e6a8915d6a3c}{\index{Pozice\-Item@{Pozice\-Item}!vloz\-Item@{vloz\-Item}}
+\index{vloz\-Item@{vloz\-Item}!PoziceItem@{Pozice\-Item}}
+\subsubsection[{vloz\-Item}]{\setlength{\rightskip}{0pt plus 5cm}void Pozice\-Item\-::vloz\-Item (
+\begin{DoxyParamCaption}
+\item[{const unsigned int}]{radek, }
+\item[{const unsigned int}]{sloupec, }
+\item[{{\bf Item} $\ast$}]{vec}
+\end{DoxyParamCaption}
+)}}\label{class_pozice_item_a4a0eb4d3b54b6600b216e6a8915d6a3c}
+/ Vlozi novy objekt, ktery je potomkem tridy \hyperlink{class_item}{Item} na pozici ve tride Pozice \hyperlink{class_item}{Item} \hypertarget{class_pozice_item_a7abaef3b977c76bd2bb2b3ea567b88aa}{\index{Pozice\-Item@{Pozice\-Item}!vrat\-Item@{vrat\-Item}}
+\index{vrat\-Item@{vrat\-Item}!PoziceItem@{Pozice\-Item}}
+\subsubsection[{vrat\-Item}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Item} $\ast$ Pozice\-Item\-::vrat\-Item (
+\begin{DoxyParamCaption}
+\item[{const unsigned int}]{radek, }
+\item[{const unsigned int}]{sloupec}
+\end{DoxyParamCaption}
+)}}\label{class_pozice_item_a7abaef3b977c76bd2bb2b3ea567b88aa}
+/ Pokud je to mozne, vrati \hyperlink{class_item}{Item}, ktery je na dane pozici \hypertarget{class_pozice_item_a5a67efe5b7ada1af96f618af19e0d5bc}{\index{Pozice\-Item@{Pozice\-Item}!vymaz\-Konkretni\-Item@{vymaz\-Konkretni\-Item}}
+\index{vymaz\-Konkretni\-Item@{vymaz\-Konkretni\-Item}!PoziceItem@{Pozice\-Item}}
+\subsubsection[{vymaz\-Konkretni\-Item}]{\setlength{\rightskip}{0pt plus 5cm}void Pozice\-Item\-::vymaz\-Konkretni\-Item (
+\begin{DoxyParamCaption}
+\item[{const unsigned int}]{radek, }
+\item[{const unsigned int}]{sloupec}
+\end{DoxyParamCaption}
+)}}\label{class_pozice_item_a5a67efe5b7ada1af96f618af19e0d5bc}
+Metoda mazajici konkretni \hyperlink{class_item}{Item} \hypertarget{class_pozice_item_a3c4ee689eb7e971119012af3f49ad568}{\index{Pozice\-Item@{Pozice\-Item}!vymaz\-Vsechny\-Itemy@{vymaz\-Vsechny\-Itemy}}
+\index{vymaz\-Vsechny\-Itemy@{vymaz\-Vsechny\-Itemy}!PoziceItem@{Pozice\-Item}}
+\subsubsection[{vymaz\-Vsechny\-Itemy}]{\setlength{\rightskip}{0pt plus 5cm}void Pozice\-Item\-::vymaz\-Vsechny\-Itemy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_pozice_item_a3c4ee689eb7e971119012af3f49ad568}
+Metoda mazajici jednotlive Itemy
+
+Tato metoda je trochu zvlastni. Obvykle maze objekty ten, kdo je vytvari Ale v tomto pripade by to bylo komplikovane, proto vznikla tato specialni cistici metoda. \hypertarget{class_pozice_item_a6435a58a36022e5fa883e14805de44a7}{\index{Pozice\-Item@{Pozice\-Item}!zjisti\-Item@{zjisti\-Item}}
+\index{zjisti\-Item@{zjisti\-Item}!PoziceItem@{Pozice\-Item}}
+\subsubsection[{zjisti\-Item}]{\setlength{\rightskip}{0pt plus 5cm}int Pozice\-Item\-::zjisti\-Item (
+\begin{DoxyParamCaption}
+\item[{const unsigned int}]{radek, }
+\item[{const unsigned int}]{sloupec}
+\end{DoxyParamCaption}
+)}}\label{class_pozice_item_a6435a58a36022e5fa883e14805de44a7}
+/ Zjisti jestli dany \hyperlink{class_item}{Item} existuje 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+B\-:/Škola/\-VŠ/\-Z\-O\-O/1. semestr/\-Projekt/\-Projekt -\/ Jakub Kubišta, E\-I/\-Projekt -\/ Dungeons and Dragons/Pozice\-Item.\-h\item 
+B\-:/Škola/\-VŠ/\-Z\-O\-O/1. semestr/\-Projekt/\-Projekt -\/ Jakub Kubišta, E\-I/\-Projekt -\/ Dungeons and Dragons/Pozice\-Item.\-cpp\end{DoxyCompactItemize}

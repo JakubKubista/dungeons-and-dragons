@@ -1,0 +1,737 @@
+# depslib dependency file v1.0
+1389366678 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\boj.cpp
+	"Boj.h"
+
+1389371746 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\boj.h
+	"InterakceNPC.h"
+	<stdlib.h>
+
+1389193099 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\interakce.h
+	"NPC.h"
+	"Item.h"
+	"ItemLektvar.h"
+	"ItemZbran.h"
+	"ItemZbroj.h"
+	<iostream>
+
+1389378351 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\npc.h
+	<iostream>
+
+1389382817 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\itemlektvar.h
+	"Item.h"
+	<iostream>
+
+1389378339 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\item.h
+	<iostream>
+
+1389382809 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\itemzbran.h
+	"Item.h"
+	<iostream>
+
+1389382814 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\itemzbroj.h
+	<iostream>
+	"Item.h"
+
+1389223927 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\bojovnik.cpp
+	"Bojovnik.h"
+
+1389372162 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\bojovnik.h
+	"HrdinaBuilder.h"
+	"Hrdina.h"
+
+1389372310 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\hrdinabuilder.h
+	"Hrdina.h"
+
+1389395740 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\hrdina.h
+	"InterakceNPC.h"
+	"InventarLektvar.h"
+	"InventarZbran.h"
+	"InventarZbroj.h"
+	"Zbroj.h"
+	"Zbran.h"
+	"Pozice2d.h"
+	"PoziceNPC.h"
+	"PoziceItem.h"
+	"Boj.h"
+	<stdlib.h>
+	<vector>
+	<iostream>
+
+1389279188 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\inventar.h
+	<iostream>
+	"Pozice2d.h"
+	"PoziceItem.h"
+	"Item.h"
+
+1389404057 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\zbroj.h
+	<iostream>
+
+1389403462 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\zbran.h
+	<iostream>
+
+1388358196 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\chodba.cpp
+	"Chodba.h"
+
+1388325066 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\chodba.h
+	"HraciPole.h"
+
+1389383805 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\hracipole.h
+	<iostream>
+	"Pozice2d.h"
+	"Hrdina.h"
+
+1389369766 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\civengine.cpp
+	"CivEngine.h"
+
+1389384224 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\civengine.h
+	"HraciDeska.h"
+	"ObjektovaHraciDeska.h"
+	"Hrdina.h"
+	"HrdinaDirector.h"
+	"MenuGUI.h"
+	"MoznostiPohybu.h"
+	"Pozice2d.h"
+	<iostream>
+	<stdlib.h>
+
+1389404127 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\objektovahracideska.h
+	"HraciPole.h"
+	"Pozice2d.h"
+	<stdlib.h>
+	<vector>
+
+1389385095 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\drak.h
+	"NPC.h"
+
+1389378084 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\drak.cpp
+	"Drak.h"
+
+1389331591 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\hracideska.cpp
+	"HraciDeska.h"
+
+1389404487 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\hracideska.h
+	<stdlib.h>
+	<vector>
+	<iostream>
+	<fstream>
+
+1388163802 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\hracipole.cpp
+	"HraciPole.h"
+
+1389388785 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\hrdina.cpp
+	"Hrdina.h"
+
+1388177424 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\hrdinabuilder.cpp
+	"HrdinaBuilder.h"
+
+1389323412 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\hrdinadirector.cpp
+	"HrdinaDirector.h"
+
+1389392263 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\hrdinadirector.h
+	"Hrdina.h"
+	"Bojovnik.h"
+	"Lovec.h"
+	"Mag.h"
+	"ObjektovaHraciDeska.h"
+	"InventarLektvar.h"
+	"InventarZbran.h"
+	"InventarZbroj.h"
+	<iostream>
+	<stdlib.h>
+
+1388866934 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\interakce.cpp
+	"Interakce.h"
+
+1389395598 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\inventarlektvar.cpp
+	"InventarLektvar.h"
+
+1389397972 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\inventarlektvar.h
+	"Pozice2d.h"
+	"PoziceItem.h"
+	"Item.h"
+	<vector>
+	<stdlib.h>
+	<iostream>
+
+1389388752 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\inventarzbran.cpp
+	"InventarZbran.h"
+
+1389397990 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\inventarzbran.h
+	"Pozice2d.h"
+	"PoziceItem.h"
+	"Item.h"
+	<vector>
+	<iostream>
+
+1389365769 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\inventarzbroj.cpp
+	"InventarZbroj.h"
+
+1389398001 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\inventarzbroj.h
+	"Pozice2d.h"
+	"PoziceItem.h"
+	"Item.h"
+	<vector>
+	<iostream>
+
+1389046271 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\item.cpp
+	"Item.h"
+
+1389279055 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\itemlektvar.cpp
+	"ItemLektvar.h"
+
+1389279063 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\itemzbran.cpp
+	"ItemZbran.h"
+
+1389279069 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\itemzbroj.cpp
+	"ItemZbroj.h"
+
+1388358258 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\krizovatka.cpp
+	"Krizovatka.h"
+
+1388325079 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\krizovatka.h
+	"HraciPole.h"
+
+1389216006 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\lovec.cpp
+	"Lovec.h"
+
+1389372206 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\lovec.h
+	"HrdinaBuilder.h"
+	"Hrdina.h"
+
+1389215996 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\mag.cpp
+	"Mag.h"
+
+1389372218 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\mag.h
+	"HrdinaBuilder.h"
+	"Hrdina.h"
+
+1388846195 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\main.cpp
+	<iostream>
+	"HraciDeska.h"
+	"CivEngine.h"
+
+1388361991 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\mistnostt.cpp
+	"MistnostT.h"
+
+1388747646 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\mistnostt.h
+	"HraciPole.h"
+
+1389376801 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\npc.cpp
+	"NPC.h"
+
+1389121803 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\objektovahracideska.cpp
+	"ObjektovaHraciDeska.h"
+
+1388012434 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\odhazovani.cpp
+	"Odhazovani.h"
+
+1389195711 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\odhazovani.h
+	"InterakceItem.h"
+
+1389378074 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\ork.cpp
+	"Ork.h"
+
+1389381319 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\ork.h
+	"NPC.h"
+
+1388061533 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\pole.cpp
+	"Pole.h"
+
+1388061508 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\pole.h
+	"HraciPole.h"
+
+1388938831 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\pozice2d.cpp
+	"Pozice2d.h"
+
+1389402451 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\pozice2d.h
+	<iostream>
+
+1388748754 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\roh.cpp
+	"Roh.h"
+
+1388748784 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\roh.h
+	"HraciPole.h"
+
+1389265489 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\sbirani.cpp
+	"Sbirani.h"
+
+1389261871 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\sbirani.h
+	"InterakceItem.h"
+	<stdlib.h>
+
+1389378095 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\vlk.cpp
+	"Vlk.h"
+
+1389381336 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\vlk.h
+	"NPC.h"
+
+1389323066 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\zbran.cpp
+	"Zbran.h"
+
+1389323235 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\zbroj.cpp
+	"Zbroj.h"
+
+1388358264 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\slepaulicka.cpp
+	"SlepaUlicka.h"
+
+1388356590 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\slepaulicka.h
+	"HraciPole.h"
+
+1389384173 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\mistnost.h
+	"HraciPole.h"
+	"Pozice2d.h"
+	"PoziceItem.h"
+	"PoziceNPC.h"
+	"Hrdina.h"
+	"ItemLektvar.h"
+	"ItemZbroj.h"
+	"ItemZbran.h"
+	"LokaceItem.h"
+	"LokaceNPC.h"
+	"Drak.h"
+	"Ork.h"
+	"Vlk.h"
+	<stdlib.h>
+
+1389381533 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\mistnost.cpp
+	"Mistnost.h"
+
+1388856351 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\menumistnost.h
+	"Pozice2d.h"
+	"Hrdina.h"
+
+1389060391 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\menu.h
+	"Pozice2d.h"
+	"Hrdina.h"
+	"HrdinaDirector.h"
+	"Mistnost.h"
+	"ObjektovaHraciDeska.h"
+
+1389060464 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\menu.cpp
+	"Menu.h"
+
+1389233205 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\menupohybu.h
+	"MenuGUI.h"
+	"Pozice2d.h"
+	"Hrdina.h"
+	"ObjektovaHraciDeska.h"
+	<iostream>
+	<stdlib.h>
+
+1389227883 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\menupohybu.cpp
+	"MenuPohybu.h"
+
+1389402495 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\poziceitem.h
+	"Item.h"
+	<vector>
+	<stdlib.h>
+
+1389377550 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\pozicenpc.h
+	"NPC.h"
+	<vector>
+	<stdlib.h>
+
+1389231578 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\poziceitem.cpp
+	"PoziceItem.h"
+
+1389229717 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\pozicenpc.cpp
+	"PoziceNPC.h"
+
+1389326633 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\menugui.cpp
+	"MenuGUI.h"
+
+1389401218 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\menugui.h
+	"Pozice2d.h"
+	"Hrdina.h"
+	"HrdinaDirector.h"
+	"Mistnost.h"
+	"ObjektovaHraciDeska.h"
+
+1389364442 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\menumistnostitem.h
+	"MenuGUI.h"
+	"Pozice2d.h"
+	"Hrdina.h"
+	"PoziceItem.h"
+	<iostream>
+	<stdlib.h>
+
+1389213925 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\menumistnostnpc.h
+	"MenuGUI.h"
+	"Pozice2d.h"
+	"Hrdina.h"
+	"PoziceNPC.h"
+	<iostream>
+	<stdlib.h>
+
+1389235927 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\menumistnostnpc.cpp
+	"MenuMistnostNPC.h"
+
+1389290811 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\menumistnostitem.cpp
+	"MenuMistnostItem.h"
+
+1389290547 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\interakceitem.h
+	"PoziceItem.h"
+	"Pozice2d.h"
+	<iostream>
+
+1389371834 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\interakcenpc.h
+	"PoziceNPC.h"
+	"Pozice2d.h"
+	<iostream>
+
+1389233869 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\interakceitem.cpp
+	"InterakceItem.h"
+
+1389201499 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\interakcenpc.cpp
+	"InterakceNPC.h"
+
+1389202403 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\hrdinaboj.h
+	"Hrdina.h"
+	<iostream>
+
+1389202381 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\hrdinaboj.cpp
+	"HrdinaBoj.h"
+
+1389302230 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\hrdinuvitem.h
+	"Pozice2d.h"
+	"PoziceItem.h"
+	<iostream>
+
+1389299447 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\hrdinuvlektvar.h
+	"HrdinuvItem.h"
+	<iostream>
+
+1389299744 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\hrdinuvitem.cpp
+	"HrdinuvItem.h"
+
+1389299783 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\hrdinuvlektvar.cpp
+	"HrdinuvLektvar.h"
+
+1389465178 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\lokaceitem.h
+	"MenuGUI.h"
+	"Pozice2d.h"
+	"Hrdina.h"
+	"PoziceItem.h"
+	<iostream>
+	<stdlib.h>
+
+1389404249 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\lokacenpc.h
+	"MenuGUI.h"
+	"Pozice2d.h"
+	"Hrdina.h"
+	"PoziceNPC.h"
+	<iostream>
+	<stdlib.h>
+
+1389404200 b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\moznostipohybu.h
+	"MenuGUI.h"
+	"Pozice2d.h"
+	"Hrdina.h"
+	"ObjektovaHraciDeska.h"
+	<iostream>
+	<stdlib.h>
+
+1389369590 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\lokaceitem.cpp
+	"LokaceItem.h"
+
+1389369584 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\lokacenpc.cpp
+	"LokaceNPC.h"
+
+1389369423 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - dungeons and dragons\moznostipohybu.cpp
+	"MoznostiPohybu.h"
+
+1389366678 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\boj.cpp
+	"Boj.h"
+
+1389371746 b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\boj.h
+	"InterakceNPC.h"
+	<stdlib.h>
+
+1389371834 b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\interakcenpc.h
+	"PoziceNPC.h"
+	"Pozice2d.h"
+	<iostream>
+
+1389377550 b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\pozicenpc.h
+	"NPC.h"
+	<vector>
+	<stdlib.h>
+
+1389378351 b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\npc.h
+	<iostream>
+
+1389402451 b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\pozice2d.h
+	<iostream>
+
+1389223927 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\bojovnik.cpp
+	"Bojovnik.h"
+
+1389372162 b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\bojovnik.h
+	"HrdinaBuilder.h"
+	"Hrdina.h"
+
+1389372310 b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\hrdinabuilder.h
+	"Hrdina.h"
+
+1389395740 b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\hrdina.h
+	"InterakceNPC.h"
+	"InventarLektvar.h"
+	"InventarZbran.h"
+	"InventarZbroj.h"
+	"Zbroj.h"
+	"Zbran.h"
+	"Pozice2d.h"
+	"PoziceNPC.h"
+	"PoziceItem.h"
+	"Boj.h"
+	<stdlib.h>
+	<vector>
+	<iostream>
+
+1389397972 b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\inventarlektvar.h
+	"Pozice2d.h"
+	"PoziceItem.h"
+	"Item.h"
+	<vector>
+	<stdlib.h>
+	<iostream>
+
+1389402495 b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\poziceitem.h
+	"Item.h"
+	<vector>
+	<stdlib.h>
+
+1389378339 b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\item.h
+	<iostream>
+
+1389397990 b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\inventarzbran.h
+	"Pozice2d.h"
+	"PoziceItem.h"
+	"Item.h"
+	<vector>
+	<iostream>
+
+1389398001 b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\inventarzbroj.h
+	"Pozice2d.h"
+	"PoziceItem.h"
+	"Item.h"
+	<vector>
+	<iostream>
+
+1389404057 b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\zbroj.h
+	<iostream>
+
+1389403462 b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\zbran.h
+	<iostream>
+
+1389369766 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\civengine.cpp
+	"CivEngine.h"
+
+1389384224 b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\civengine.h
+	"HraciDeska.h"
+	"ObjektovaHraciDeska.h"
+	"Hrdina.h"
+	"HrdinaDirector.h"
+	"MenuGUI.h"
+	"MoznostiPohybu.h"
+	"Pozice2d.h"
+	<iostream>
+	<stdlib.h>
+
+1389404487 b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\hracideska.h
+	<stdlib.h>
+	<vector>
+	<iostream>
+	<fstream>
+
+1389404127 b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\objektovahracideska.h
+	"HraciPole.h"
+	"Pozice2d.h"
+	<stdlib.h>
+	<vector>
+
+1389383805 b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\hracipole.h
+	<iostream>
+	"Pozice2d.h"
+	"Hrdina.h"
+
+1389392263 b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\hrdinadirector.h
+	"Hrdina.h"
+	"Bojovnik.h"
+	"Lovec.h"
+	"Mag.h"
+	"ObjektovaHraciDeska.h"
+	"InventarLektvar.h"
+	"InventarZbran.h"
+	"InventarZbroj.h"
+	<iostream>
+	<stdlib.h>
+
+1389372206 b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\lovec.h
+	"HrdinaBuilder.h"
+	"Hrdina.h"
+
+1389372218 b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\mag.h
+	"HrdinaBuilder.h"
+	"Hrdina.h"
+
+1389401218 b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\menugui.h
+	"Pozice2d.h"
+	"Hrdina.h"
+	"HrdinaDirector.h"
+	"Mistnost.h"
+	"ObjektovaHraciDeska.h"
+
+1389384173 b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\mistnost.h
+	"HraciPole.h"
+	"Pozice2d.h"
+	"PoziceItem.h"
+	"PoziceNPC.h"
+	"Hrdina.h"
+	"ItemLektvar.h"
+	"ItemZbroj.h"
+	"ItemZbran.h"
+	"LokaceItem.h"
+	"LokaceNPC.h"
+	"Drak.h"
+	"Ork.h"
+	"Vlk.h"
+	<stdlib.h>
+
+1389382817 b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\itemlektvar.h
+	"Item.h"
+	<iostream>
+
+1389382814 b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\itemzbroj.h
+	<iostream>
+	"Item.h"
+
+1389382809 b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\itemzbran.h
+	"Item.h"
+	<iostream>
+
+1389465178 b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\lokaceitem.h
+	"MenuGUI.h"
+	"Pozice2d.h"
+	"Hrdina.h"
+	"PoziceItem.h"
+	<iostream>
+	<stdlib.h>
+
+1389404249 b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\lokacenpc.h
+	"MenuGUI.h"
+	"Pozice2d.h"
+	"Hrdina.h"
+	"PoziceNPC.h"
+	<iostream>
+	<stdlib.h>
+
+1389385095 b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\drak.h
+	"NPC.h"
+
+1389381319 b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\ork.h
+	"NPC.h"
+
+1389381336 b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\vlk.h
+	"NPC.h"
+
+1389404200 b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\moznostipohybu.h
+	"MenuGUI.h"
+	"Pozice2d.h"
+	"Hrdina.h"
+	"ObjektovaHraciDeska.h"
+	<iostream>
+	<stdlib.h>
+
+1389378084 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\drak.cpp
+	"Drak.h"
+
+1389331591 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\hracideska.cpp
+	"HraciDeska.h"
+
+1388163802 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\hracipole.cpp
+	"HraciPole.h"
+
+1389323412 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\hrdinadirector.cpp
+	"HrdinaDirector.h"
+
+1389201499 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\interakcenpc.cpp
+	"InterakceNPC.h"
+
+1389395598 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\inventarlektvar.cpp
+	"InventarLektvar.h"
+
+1389388752 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\inventarzbran.cpp
+	"InventarZbran.h"
+
+1389365769 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\inventarzbroj.cpp
+	"InventarZbroj.h"
+
+1389046271 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\item.cpp
+	"Item.h"
+
+1389279055 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\itemlektvar.cpp
+	"ItemLektvar.h"
+
+1389279063 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\itemzbran.cpp
+	"ItemZbran.h"
+
+1389279069 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\itemzbroj.cpp
+	"ItemZbroj.h"
+
+1389369590 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\lokaceitem.cpp
+	"LokaceItem.h"
+
+1389369584 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\lokacenpc.cpp
+	"LokaceNPC.h"
+
+1389216006 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\lovec.cpp
+	"Lovec.h"
+
+1389215996 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\mag.cpp
+	"Mag.h"
+
+1388846195 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\main.cpp
+	<iostream>
+	"HraciDeska.h"
+	"CivEngine.h"
+
+1389326633 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\menugui.cpp
+	"MenuGUI.h"
+
+1389465535 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\mistnost.cpp
+	"Mistnost.h"
+
+1389369423 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\moznostipohybu.cpp
+	"MoznostiPohybu.h"
+
+1389376801 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\npc.cpp
+	"NPC.h"
+
+1389121803 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\objektovahracideska.cpp
+	"ObjektovaHraciDeska.h"
+
+1389378074 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\ork.cpp
+	"Ork.h"
+
+1388938831 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\pozice2d.cpp
+	"Pozice2d.h"
+
+1389231578 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\poziceitem.cpp
+	"PoziceItem.h"
+
+1389229717 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\pozicenpc.cpp
+	"PoziceNPC.h"
+
+1389378095 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\vlk.cpp
+	"Vlk.h"
+
+1389323066 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\zbran.cpp
+	"Zbran.h"
+
+1389323235 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\zbroj.cpp
+	"Zbroj.h"
+
+1389547916 source:b:\äkola\vä\zoo\1. semestr\projekt\projekt - jakub kubiöta, ei\projekt - dungeons and dragons\hrdina.cpp
+	"Hrdina.h"
+

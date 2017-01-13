@@ -1,0 +1,250 @@
+\hypertarget{class_hrdina}{\section{Hrdina Class Reference}
+\label{class_hrdina}\index{Hrdina@{Hrdina}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_hrdina_af3946c5ee051376dcab3b0d6b1d3f089}{Hrdina} ()
+\item 
+\hyperlink{class_hrdina_a3b021c71304b51ef4d2cd3c37cdc5b59}{Hrdina} (std\-::string jmeno)
+\item 
+void \hyperlink{class_hrdina_aba86825ebf33a0904f70764833a7d5db}{set\-Jmeno} (std\-::string jmeno)
+\item 
+void \hyperlink{class_hrdina_af30fa09e3fe0f943a6317d3fe92803e2}{set\-Typ\-Hrdiny} (std\-::string typ\-Hrdiny)
+\item 
+void \hyperlink{class_hrdina_a56f15ba39c3367268040567992538ffa}{set\-Sila} (int sila)
+\item 
+void \hyperlink{class_hrdina_a7777660660acc63dc973594d95f5c38a}{set\-Obrana} (int obrana)
+\item 
+void \hyperlink{class_hrdina_a1ea9b5c067c4319c5d493a56d8ce38f1}{set\-Magie} (int magie)
+\item 
+void \hyperlink{class_hrdina_ab810414abcfa07f38b316300b090185a}{set\-Zivoty} ()
+\item 
+std\-::string \hyperlink{class_hrdina_a9c01338eff8f5c34c3cbb659e97dacaf}{get\-Jmeno} ()
+\item 
+int \hyperlink{class_hrdina_a8e8465ad136d7c8b0bc34260bf1e39ef}{get\-Sila} ()
+\item 
+int \hyperlink{class_hrdina_a73df143a15e119544e620839e7ad0ec9}{get\-Obrana} ()
+\item 
+int \hyperlink{class_hrdina_a06429e3ba900af41c87ca39a27c6f5b3}{get\-Uroven} ()
+\item 
+float \hyperlink{class_hrdina_a397b0e79c7fceeafa8cd6abc7119dfb8}{get\-Max\-Zkusenosti} ()
+\item 
+Inventar\-Lektvar $\ast$ \hyperlink{class_hrdina_a4f27a7c57ea3daa9fad7ed4d3062e5c3}{get\-Inventar\-Lektvar} ()
+\item 
+\hyperlink{class_inventar_zbran}{Inventar\-Zbran} $\ast$ \hyperlink{class_hrdina_a702af528983040c4e42aaf81857aa091}{get\-Inventar\-Zbran} ()
+\item 
+\hyperlink{class_inventar_zbroj}{Inventar\-Zbroj} $\ast$ \hyperlink{class_hrdina_a3bbc7d24d46551d15f76afb8b365c26f}{get\-Inventar\-Zbroj} ()
+\item 
+int \hyperlink{class_hrdina_a3ef2dba4d1f17cd04a27147b64bd7048}{get\-Ank\-Vzkriseni} ()
+\item 
+\hyperlink{struct_pozice2d}{Pozice2d} $\ast$ \hyperlink{class_hrdina_a1c5af9bbbca5775ecd98a802ec65b53d}{ziskej\-Pozici} (int radek, int sloupec)
+\item 
+void \hyperlink{class_hrdina_a79d32ca76bfecef2ccf925192e4ecdc9}{interaguj\-N\-P\-C} (\hyperlink{struct_pozice2d}{Pozice2d} $\ast$moje\-Pozice, \hyperlink{class_pozice_n_p_c}{Pozice\-N\-P\-C} $\ast$mistni\-N\-P\-C)
+\item 
+void \hyperlink{class_hrdina_adf8d0eebfc7760699f1b074a94c8711f}{interaguj\-Item} (\hyperlink{struct_pozice2d}{Pozice2d} $\ast$moje\-Pozice, \hyperlink{class_pozice_item}{Pozice\-Item} $\ast$mistni\-Item)
+\item 
+void \hyperlink{class_hrdina_ad85efc293485f0b73cb925fac35d50bb}{vypij\-Lektvar} ()
+\item 
+void \hyperlink{class_hrdina_a4a0625eb616f0a2bfbdb7f210cf71912}{uchop\-Zbran} (int druh\-Zbrane)
+\item 
+void \hyperlink{class_hrdina_adb743bd1051a32b775d4fd8a85d961ea}{oblec\-Zbroj} (int druh\-Zbroje)
+\item 
+void \hyperlink{class_hrdina_aef7225c90a6e5b084a1f382a3591a32f}{print\-Info} ()
+\item 
+void \hyperlink{class_hrdina_aed8c103f84ed06303e1a8f792650823f}{vymaz\-Hrdinu} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_hrdina_af3946c5ee051376dcab3b0d6b1d3f089}{\index{Hrdina@{Hrdina}!Hrdina@{Hrdina}}
+\index{Hrdina@{Hrdina}!Hrdina@{Hrdina}}
+\subsubsection[{Hrdina}]{\setlength{\rightskip}{0pt plus 5cm}Hrdina\-::\-Hrdina (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_hrdina_af3946c5ee051376dcab3b0d6b1d3f089}
+Bezparametricky konstruktor, ktery se vytvori pri volbe v uvodni nabidce Nova Hra Po konstrukci zadavame jmeno, a typ hrdiny, ktery nam priradi startovni hodnoty atributu \hypertarget{class_hrdina_a3b021c71304b51ef4d2cd3c37cdc5b59}{\index{Hrdina@{Hrdina}!Hrdina@{Hrdina}}
+\index{Hrdina@{Hrdina}!Hrdina@{Hrdina}}
+\subsubsection[{Hrdina}]{\setlength{\rightskip}{0pt plus 5cm}Hrdina\-::\-Hrdina (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{jmeno}
+\end{DoxyParamCaption}
+)}}\label{class_hrdina_a3b021c71304b51ef4d2cd3c37cdc5b59}
+Parametricky konstruktor, ktery se vytvori pri volbe v uvodni nabidce Pokracovat Po konstrukci nemusime zadavat nic, a ma predstavovat fixci jak hra vypada po urcitem odehranem case (hrdina je silny). 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_hrdina_a3ef2dba4d1f17cd04a27147b64bd7048}{\index{Hrdina@{Hrdina}!get\-Ank\-Vzkriseni@{get\-Ank\-Vzkriseni}}
+\index{get\-Ank\-Vzkriseni@{get\-Ank\-Vzkriseni}!Hrdina@{Hrdina}}
+\subsubsection[{get\-Ank\-Vzkriseni}]{\setlength{\rightskip}{0pt plus 5cm}int Hrdina\-::get\-Ank\-Vzkriseni (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_hrdina_a3ef2dba4d1f17cd04a27147b64bd7048}
+/ Metoda, ktera nam vraci pocet anku vzkriseni Hrdiny -\/ pokud neni zadny, hra se ukonci \hypertarget{class_hrdina_a4f27a7c57ea3daa9fad7ed4d3062e5c3}{\index{Hrdina@{Hrdina}!get\-Inventar\-Lektvar@{get\-Inventar\-Lektvar}}
+\index{get\-Inventar\-Lektvar@{get\-Inventar\-Lektvar}!Hrdina@{Hrdina}}
+\subsubsection[{get\-Inventar\-Lektvar}]{\setlength{\rightskip}{0pt plus 5cm}Inventar\-Lektvar $\ast$ Hrdina\-::get\-Inventar\-Lektvar (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_hrdina_a4f27a7c57ea3daa9fad7ed4d3062e5c3}
+/ Metoda, ktera nam vraci inventar lektvaru Hrdiny \hypertarget{class_hrdina_a702af528983040c4e42aaf81857aa091}{\index{Hrdina@{Hrdina}!get\-Inventar\-Zbran@{get\-Inventar\-Zbran}}
+\index{get\-Inventar\-Zbran@{get\-Inventar\-Zbran}!Hrdina@{Hrdina}}
+\subsubsection[{get\-Inventar\-Zbran}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Inventar\-Zbran} $\ast$ Hrdina\-::get\-Inventar\-Zbran (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_hrdina_a702af528983040c4e42aaf81857aa091}
+/ Metoda, ktera nam vraci inventar zbrani Hrdiny \hypertarget{class_hrdina_a3bbc7d24d46551d15f76afb8b365c26f}{\index{Hrdina@{Hrdina}!get\-Inventar\-Zbroj@{get\-Inventar\-Zbroj}}
+\index{get\-Inventar\-Zbroj@{get\-Inventar\-Zbroj}!Hrdina@{Hrdina}}
+\subsubsection[{get\-Inventar\-Zbroj}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Inventar\-Zbroj} $\ast$ Hrdina\-::get\-Inventar\-Zbroj (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_hrdina_a3bbc7d24d46551d15f76afb8b365c26f}
+/ Metoda, ktera nam vraci inventar zbroji Hrdiny \hypertarget{class_hrdina_a9c01338eff8f5c34c3cbb659e97dacaf}{\index{Hrdina@{Hrdina}!get\-Jmeno@{get\-Jmeno}}
+\index{get\-Jmeno@{get\-Jmeno}!Hrdina@{Hrdina}}
+\subsubsection[{get\-Jmeno}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Hrdina\-::get\-Jmeno (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_hrdina_a9c01338eff8f5c34c3cbb659e97dacaf}
+/ Metoda, ktera nam vraci Jmeno Hrdiny \hypertarget{class_hrdina_a397b0e79c7fceeafa8cd6abc7119dfb8}{\index{Hrdina@{Hrdina}!get\-Max\-Zkusenosti@{get\-Max\-Zkusenosti}}
+\index{get\-Max\-Zkusenosti@{get\-Max\-Zkusenosti}!Hrdina@{Hrdina}}
+\subsubsection[{get\-Max\-Zkusenosti}]{\setlength{\rightskip}{0pt plus 5cm}float Hrdina\-::get\-Max\-Zkusenosti (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_hrdina_a397b0e79c7fceeafa8cd6abc7119dfb8}
+Metoda, ktera nam vraci maximalni zkusenosti Hrdiny, ktere jsou nastaveny vzorcem predesle maximalni zkusenosti + uroven $\ast$ 150. Pokud zkusenosti dosahnou maximalnich \hyperlink{class_hrdina}{Hrdina} obdrzi novou uroven \hypertarget{class_hrdina_a73df143a15e119544e620839e7ad0ec9}{\index{Hrdina@{Hrdina}!get\-Obrana@{get\-Obrana}}
+\index{get\-Obrana@{get\-Obrana}!Hrdina@{Hrdina}}
+\subsubsection[{get\-Obrana}]{\setlength{\rightskip}{0pt plus 5cm}int Hrdina\-::get\-Obrana (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_hrdina_a73df143a15e119544e620839e7ad0ec9}
+/ Metoda, ktera nam vraci obranu Hrdiny \hypertarget{class_hrdina_a8e8465ad136d7c8b0bc34260bf1e39ef}{\index{Hrdina@{Hrdina}!get\-Sila@{get\-Sila}}
+\index{get\-Sila@{get\-Sila}!Hrdina@{Hrdina}}
+\subsubsection[{get\-Sila}]{\setlength{\rightskip}{0pt plus 5cm}int Hrdina\-::get\-Sila (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_hrdina_a8e8465ad136d7c8b0bc34260bf1e39ef}
+/ Metoda, ktera nam vraci silu Hrdiny \hypertarget{class_hrdina_a06429e3ba900af41c87ca39a27c6f5b3}{\index{Hrdina@{Hrdina}!get\-Uroven@{get\-Uroven}}
+\index{get\-Uroven@{get\-Uroven}!Hrdina@{Hrdina}}
+\subsubsection[{get\-Uroven}]{\setlength{\rightskip}{0pt plus 5cm}int Hrdina\-::get\-Uroven (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_hrdina_a06429e3ba900af41c87ca39a27c6f5b3}
+/ Metoda, ktera nam vraci uroven Hrdiny \hypertarget{class_hrdina_adf8d0eebfc7760699f1b074a94c8711f}{\index{Hrdina@{Hrdina}!interaguj\-Item@{interaguj\-Item}}
+\index{interaguj\-Item@{interaguj\-Item}!Hrdina@{Hrdina}}
+\subsubsection[{interaguj\-Item}]{\setlength{\rightskip}{0pt plus 5cm}void Hrdina\-::interaguj\-Item (
+\begin{DoxyParamCaption}
+\item[{{\bf Pozice2d} $\ast$}]{moje\-Pozice, }
+\item[{{\bf Pozice\-Item} $\ast$}]{mistni\-Item}
+\end{DoxyParamCaption}
+)}}\label{class_hrdina_adf8d0eebfc7760699f1b074a94c8711f}
+Metoda, ktera slouzi k predani Itemu v Mistnosti do inventare Hrdiny. Zjisti o jaky item se jedna Pokud je to Lektvar, preda hodnoty do Inventar Lektvar, stejne je to tak u Inventare Zbroji a Inventare Zbrani. Veskere dalsi operace s Itemem jsou popsany v danem Invenari. \hypertarget{class_hrdina_a79d32ca76bfecef2ccf925192e4ecdc9}{\index{Hrdina@{Hrdina}!interaguj\-N\-P\-C@{interaguj\-N\-P\-C}}
+\index{interaguj\-N\-P\-C@{interaguj\-N\-P\-C}!Hrdina@{Hrdina}}
+\subsubsection[{interaguj\-N\-P\-C}]{\setlength{\rightskip}{0pt plus 5cm}void Hrdina\-::interaguj\-N\-P\-C (
+\begin{DoxyParamCaption}
+\item[{{\bf Pozice2d} $\ast$}]{moje\-Pozice, }
+\item[{{\bf Pozice\-N\-P\-C} $\ast$}]{mistni\-N\-P\-C}
+\end{DoxyParamCaption}
+)}}\label{class_hrdina_a79d32ca76bfecef2ccf925192e4ecdc9}
+Metoda, reprezentujici interakci mezi Hrdinou a \hyperlink{class_n_p_c}{N\-P\-C} (nepritelem). Vetsina boje se odkazuje na tridu \hyperlink{class_boj}{Boj}, jenz je prave potomkem tridy \hyperlink{class_interakce_n_p_c}{Interakce\-N\-P\-C}. Nejdrive se zavola metoda nauc\-Interakci\-N\-P\-C, diky ktere vime o jakou interakci se jedna a pote nastavime atributy tridy boj na prvni kolo bitvy. Pote se za pomoci metody zautoc v Boji predaji hodnoty hrdiny a mistniho \hyperlink{class_n_p_c}{N\-P\-C} se souradnicemi a bitva muze zacit. Pote se prevedou hodnoty atributu z bitvy na hrdinovy. Nasleduji tri podminky, zda jsme neumreli, neobdrzeli novou uroven a jestli byl nepritel porazen. \hypertarget{class_hrdina_adb743bd1051a32b775d4fd8a85d961ea}{\index{Hrdina@{Hrdina}!oblec\-Zbroj@{oblec\-Zbroj}}
+\index{oblec\-Zbroj@{oblec\-Zbroj}!Hrdina@{Hrdina}}
+\subsubsection[{oblec\-Zbroj}]{\setlength{\rightskip}{0pt plus 5cm}void Hrdina\-::oblec\-Zbroj (
+\begin{DoxyParamCaption}
+\item[{int}]{druh\-Zbroje}
+\end{DoxyParamCaption}
+)}}\label{class_hrdina_adb743bd1051a32b775d4fd8a85d961ea}
+Meto je skoro totozna s metodou uchopeni Zbroje, umoznuje obleci zbroj z Inventare Zbroji. Nejprve tato metoda mela byt resena pres interakci, ale po nekolikahodinove praci jsem se rozhodl, ze to bude reseno metodou, ktera nam bohuzel zbytecne zdelsi kod tridy \hyperlink{class_hrdina}{Hrdina}.
+
+Z pomocne tridy hrdiny \hyperlink{class_hrdina}{Hrdina} Director si zadame, index vektoru, neboli Zbroje, kterou chceme obleci. Nyni navazujeme na zdejsi metodu, ktera nam ji umozni za pomoci podminek sebrat z inventare, pokud pod timto cislem nejaka vubec je. Dle podminky zjisti jestli uz mame nebo nemame \hyperlink{class_zbroj}{Zbroj}, pokud ano tak tak nam ciste prepise hodnoty, predesle Zbroje, pokud ne vytvori se zcela nova \hyperlink{class_zbroj}{Zbroj} hrdiny a opet zapise jeji atributy. Pokud hrdina zbran mel, tak to ma symbolizovat, ze starou zahodi a novou vezme, i kdyz pouze prepise atributy Zbroje. \hypertarget{class_hrdina_aef7225c90a6e5b084a1f382a3591a32f}{\index{Hrdina@{Hrdina}!print\-Info@{print\-Info}}
+\index{print\-Info@{print\-Info}!Hrdina@{Hrdina}}
+\subsubsection[{print\-Info}]{\setlength{\rightskip}{0pt plus 5cm}void Hrdina\-::print\-Info (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_hrdina_aef7225c90a6e5b084a1f382a3591a32f}
+/ Tato metoda nam vypise veskere dulezite a pro nas potrebne vlastnosti (atributy) Hrdiny. \hypertarget{class_hrdina_aba86825ebf33a0904f70764833a7d5db}{\index{Hrdina@{Hrdina}!set\-Jmeno@{set\-Jmeno}}
+\index{set\-Jmeno@{set\-Jmeno}!Hrdina@{Hrdina}}
+\subsubsection[{set\-Jmeno}]{\setlength{\rightskip}{0pt plus 5cm}void Hrdina\-::set\-Jmeno (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{jmeno}
+\end{DoxyParamCaption}
+)}}\label{class_hrdina_aba86825ebf33a0904f70764833a7d5db}
+/ Metoda, za pomoci ktere nastavime pri uvodu Nove Hry jmeno Hrdiny \hypertarget{class_hrdina_a1ea9b5c067c4319c5d493a56d8ce38f1}{\index{Hrdina@{Hrdina}!set\-Magie@{set\-Magie}}
+\index{set\-Magie@{set\-Magie}!Hrdina@{Hrdina}}
+\subsubsection[{set\-Magie}]{\setlength{\rightskip}{0pt plus 5cm}void Hrdina\-::set\-Magie (
+\begin{DoxyParamCaption}
+\item[{int}]{magie}
+\end{DoxyParamCaption}
+)}}\label{class_hrdina_a1ea9b5c067c4319c5d493a56d8ce38f1}
+/ Metoda, za pomoci ktere nastavime magii Hrdiny \hypertarget{class_hrdina_a7777660660acc63dc973594d95f5c38a}{\index{Hrdina@{Hrdina}!set\-Obrana@{set\-Obrana}}
+\index{set\-Obrana@{set\-Obrana}!Hrdina@{Hrdina}}
+\subsubsection[{set\-Obrana}]{\setlength{\rightskip}{0pt plus 5cm}void Hrdina\-::set\-Obrana (
+\begin{DoxyParamCaption}
+\item[{int}]{obrana}
+\end{DoxyParamCaption}
+)}}\label{class_hrdina_a7777660660acc63dc973594d95f5c38a}
+/ Metoda, za pomoci ktere nastavime obranu Hrdiny \hypertarget{class_hrdina_a56f15ba39c3367268040567992538ffa}{\index{Hrdina@{Hrdina}!set\-Sila@{set\-Sila}}
+\index{set\-Sila@{set\-Sila}!Hrdina@{Hrdina}}
+\subsubsection[{set\-Sila}]{\setlength{\rightskip}{0pt plus 5cm}void Hrdina\-::set\-Sila (
+\begin{DoxyParamCaption}
+\item[{int}]{sila}
+\end{DoxyParamCaption}
+)}}\label{class_hrdina_a56f15ba39c3367268040567992538ffa}
+/ Metoda, za pomoci ktere nastavime silu Hrdiny \hypertarget{class_hrdina_af30fa09e3fe0f943a6317d3fe92803e2}{\index{Hrdina@{Hrdina}!set\-Typ\-Hrdiny@{set\-Typ\-Hrdiny}}
+\index{set\-Typ\-Hrdiny@{set\-Typ\-Hrdiny}!Hrdina@{Hrdina}}
+\subsubsection[{set\-Typ\-Hrdiny}]{\setlength{\rightskip}{0pt plus 5cm}void Hrdina\-::set\-Typ\-Hrdiny (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{typ\-Hrdiny}
+\end{DoxyParamCaption}
+)}}\label{class_hrdina_af30fa09e3fe0f943a6317d3fe92803e2}
+Metoda, za pomoci ktere nastavime typ Hrdiny, podle toho jaky zvolime ve tride \hyperlink{class_hrdina}{Hrdina} Director, ktera je volana po zadani jmena. A podle typu zavola nektereho dedice Hrdiny buildra. \hypertarget{class_hrdina_ab810414abcfa07f38b316300b090185a}{\index{Hrdina@{Hrdina}!set\-Zivoty@{set\-Zivoty}}
+\index{set\-Zivoty@{set\-Zivoty}!Hrdina@{Hrdina}}
+\subsubsection[{set\-Zivoty}]{\setlength{\rightskip}{0pt plus 5cm}void Hrdina\-::set\-Zivoty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_hrdina_ab810414abcfa07f38b316300b090185a}
+/ Metoda, za pomoci ktere nastavime zivoty Hrdiny \hypertarget{class_hrdina_a4a0625eb616f0a2bfbdb7f210cf71912}{\index{Hrdina@{Hrdina}!uchop\-Zbran@{uchop\-Zbran}}
+\index{uchop\-Zbran@{uchop\-Zbran}!Hrdina@{Hrdina}}
+\subsubsection[{uchop\-Zbran}]{\setlength{\rightskip}{0pt plus 5cm}void Hrdina\-::uchop\-Zbran (
+\begin{DoxyParamCaption}
+\item[{int}]{druh\-Zbrane}
+\end{DoxyParamCaption}
+)}}\label{class_hrdina_a4a0625eb616f0a2bfbdb7f210cf71912}
+Jedna se o Metodu, ktera hrdinovi umoznuje zakladnim zpusobem vzit zbran z Inventare Zbrani. Nejprve tato metoda mela byt resena pres interakci, ale po nekolikahodinove praci jsem se rozhodl, ze to bude reseno metodou, ktera nam bohuzel zbytecne zdelsi kod tridy \hyperlink{class_hrdina}{Hrdina}.
+
+Z pomocne tridy hrdiny \hyperlink{class_hrdina}{Hrdina} Director si zadame, index vektoru, neboli Zbrane, kterou chceme vzit. Nyni navazujeme na zdejsi metodu, ktera nam ji umozni za pomoci podminek vzit z inventare, pokud pod timto cislem nejaka vubec je. Dle podminky zjisti jestli uz mame nebo nemame \hyperlink{class_zbran}{Zbran}, pokud ano tak tak nam ciste prepise hodnoty, predesle Zbrane, pokud ne vytvori se zcela nova \hyperlink{class_zbran}{Zbran} hrdiny a opet zapise jeji atributy. Pokud hrdina zbran mel, tak to ma symbolizovat, ze starou zahodi a novou vezme, i kdyz pouze prepise atributy Zbrane. \hypertarget{class_hrdina_aed8c103f84ed06303e1a8f792650823f}{\index{Hrdina@{Hrdina}!vymaz\-Hrdinu@{vymaz\-Hrdinu}}
+\index{vymaz\-Hrdinu@{vymaz\-Hrdinu}!Hrdina@{Hrdina}}
+\subsubsection[{vymaz\-Hrdinu}]{\setlength{\rightskip}{0pt plus 5cm}void Hrdina\-::vymaz\-Hrdinu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_hrdina_aed8c103f84ed06303e1a8f792650823f}
+Destruktor, ktery se vola pri smazani Hrdiny a smaze nam vsechny jeho vytvorene nesene atributy Trid. \hypertarget{class_hrdina_ad85efc293485f0b73cb925fac35d50bb}{\index{Hrdina@{Hrdina}!vypij\-Lektvar@{vypij\-Lektvar}}
+\index{vypij\-Lektvar@{vypij\-Lektvar}!Hrdina@{Hrdina}}
+\subsubsection[{vypij\-Lektvar}]{\setlength{\rightskip}{0pt plus 5cm}void Hrdina\-::vypij\-Lektvar (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_hrdina_ad85efc293485f0b73cb925fac35d50bb}
+Metoda, diky ktere \hyperlink{class_hrdina}{Hrdina} pije Lektvar z Inventare Lektvaru, je zde zavolana metoda nauc interakci\-N\-P\-C kdyby se zvysila uroven, ktera by se k Inventari ani spravne nemela vztahovat, ale aby se kod zbytecne neprodluzoval je problematika vyresena takto. Hrdinovi prida hodnoty Lektvaru a to zkusenosti a zdravi, ale v Mistnostech jsou stejne pouze Lektvary Zkusenosti a Lektvary Zivotu, takze si polepsi pouze u jednoho atributu. \hypertarget{class_hrdina_a1c5af9bbbca5775ecd98a802ec65b53d}{\index{Hrdina@{Hrdina}!ziskej\-Pozici@{ziskej\-Pozici}}
+\index{ziskej\-Pozici@{ziskej\-Pozici}!Hrdina@{Hrdina}}
+\subsubsection[{ziskej\-Pozici}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Pozice2d} $\ast$ Hrdina\-::ziskej\-Pozici (
+\begin{DoxyParamCaption}
+\item[{int}]{radek, }
+\item[{int}]{sloupec}
+\end{DoxyParamCaption}
+)}}\label{class_hrdina_a1c5af9bbbca5775ecd98a802ec65b53d}
+Metoda, za pomoci ktere hrdina ziska pozici, diky tride \hyperlink{struct_pozice2d}{Pozice2d}, ktera je dana radkem a sloupcem v objektove hraci desce. 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+B\-:/Škola/\-VŠ/\-Z\-O\-O/1. semestr/\-Projekt/\-Projekt -\/ Jakub Kubišta, E\-I/\-Projekt -\/ Dungeons and Dragons/Hrdina.\-h\item 
+B\-:/Škola/\-VŠ/\-Z\-O\-O/1. semestr/\-Projekt/\-Projekt -\/ Jakub Kubišta, E\-I/\-Projekt -\/ Dungeons and Dragons/Hrdina.\-cpp\end{DoxyCompactItemize}

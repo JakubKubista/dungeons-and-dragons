@@ -1,0 +1,138 @@
+\hypertarget{class_inventar_zbran}{\section{Inventar\-Zbran Class Reference}
+\label{class_inventar_zbran}\index{Inventar\-Zbran@{Inventar\-Zbran}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_inventar_zbran_a8f044e253991c09df7ad754d7443411d}{Inventar\-Zbran} ()
+\item 
+void \hyperlink{class_inventar_zbran_add49cb1b8e8b7039bbce2cec95ab7231}{vlozeni\-Zbran} (\hyperlink{struct_pozice2d}{Pozice2d} $\ast$moje\-Pozice, \hyperlink{class_pozice_item}{Pozice\-Item} $\ast$mistni\-Item)
+\item 
+void \hyperlink{class_inventar_zbran_a38dce51d0dd332f5734af26860041f17}{zahod\-Zbran} (int druh\-Zbrane)
+\item 
+void \hyperlink{class_inventar_zbran_a1cf8eea2896a336c6f16befd77a105ea}{nova\-Zbran} (int druh\-Zbrane)
+\item 
+std\-::string \hyperlink{class_inventar_zbran_ab380d53dfadaeedac7c775cbd6e6ae15}{get\-Nazev\-Itemu} ()
+\item 
+int \hyperlink{class_inventar_zbran_ae9411d84f602cb5f6bcd8cee3d9f3083}{get\-Cislo\-Itemu} ()
+\item 
+int \hyperlink{class_inventar_zbran_a326fb573625f6296503cce9b8037935d}{get\-Bonus\-Sila} ()
+\item 
+int \hyperlink{class_inventar_zbran_a80beef21c29ac53f0f3057572b454999}{get\-Hodnota\-Itemu} ()
+\item 
+int \hyperlink{class_inventar_zbran_a50af8b1b588a7d628e6c94d08f53ad80}{get\-Bonus\-Obrana} ()
+\item 
+float \hyperlink{class_inventar_zbran_a3914216b3a654e6c25b27b4d0a5a3eb2}{get\-Bonus\-Zivoty} ()
+\item 
+float \hyperlink{class_inventar_zbran_a2fcbac8c9c47e1f6933e718a6bff2a40}{get\-Bonus\-Zkusenosti} ()
+\item 
+void \hyperlink{class_inventar_zbran_a2980b1c182c6454a6a67cb445024929b}{vypis\-Zbran} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\-::vector$<$ \hyperlink{class_item}{Item} $\ast$ $>$ \hyperlink{class_inventar_zbran_a324d36769f1d1d55da5453aaf3089f56}{m\-\_\-nesene\-Zbrane\-Inventar}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_inventar_zbran_a8f044e253991c09df7ad754d7443411d}{\index{Inventar\-Zbran@{Inventar\-Zbran}!Inventar\-Zbran@{Inventar\-Zbran}}
+\index{Inventar\-Zbran@{Inventar\-Zbran}!InventarZbran@{Inventar\-Zbran}}
+\subsubsection[{Inventar\-Zbran}]{\setlength{\rightskip}{0pt plus 5cm}Inventar\-Zbran\-::\-Inventar\-Zbran (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_inventar_zbran_a8f044e253991c09df7ad754d7443411d}
+Bezparametricky konstruktor, ktery se vytvori pri vytvoreni Hrdiny Pocet Zbrani nastaven na 0, kapacita je 5 a logicky vstup je 1 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_inventar_zbran_a50af8b1b588a7d628e6c94d08f53ad80}{\index{Inventar\-Zbran@{Inventar\-Zbran}!get\-Bonus\-Obrana@{get\-Bonus\-Obrana}}
+\index{get\-Bonus\-Obrana@{get\-Bonus\-Obrana}!InventarZbran@{Inventar\-Zbran}}
+\subsubsection[{get\-Bonus\-Obrana}]{\setlength{\rightskip}{0pt plus 5cm}int Inventar\-Zbran\-::get\-Bonus\-Obrana (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_inventar_zbran_a50af8b1b588a7d628e6c94d08f53ad80}
+/ Metoda, ktera vraci bonusovou obranu Zbrane v inventari -\/ vraci vzdy 0. \hypertarget{class_inventar_zbran_a326fb573625f6296503cce9b8037935d}{\index{Inventar\-Zbran@{Inventar\-Zbran}!get\-Bonus\-Sila@{get\-Bonus\-Sila}}
+\index{get\-Bonus\-Sila@{get\-Bonus\-Sila}!InventarZbran@{Inventar\-Zbran}}
+\subsubsection[{get\-Bonus\-Sila}]{\setlength{\rightskip}{0pt plus 5cm}int Inventar\-Zbran\-::get\-Bonus\-Sila (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_inventar_zbran_a326fb573625f6296503cce9b8037935d}
+/ Metoda, ktera vraci bonusovou silu Zbrane v inventari. \hypertarget{class_inventar_zbran_a3914216b3a654e6c25b27b4d0a5a3eb2}{\index{Inventar\-Zbran@{Inventar\-Zbran}!get\-Bonus\-Zivoty@{get\-Bonus\-Zivoty}}
+\index{get\-Bonus\-Zivoty@{get\-Bonus\-Zivoty}!InventarZbran@{Inventar\-Zbran}}
+\subsubsection[{get\-Bonus\-Zivoty}]{\setlength{\rightskip}{0pt plus 5cm}float Inventar\-Zbran\-::get\-Bonus\-Zivoty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_inventar_zbran_a3914216b3a654e6c25b27b4d0a5a3eb2}
+/ Metoda, ktera vraci bonusove zivoty Zbrane v inventari -\/ vraci vzdy 0. \hypertarget{class_inventar_zbran_a2fcbac8c9c47e1f6933e718a6bff2a40}{\index{Inventar\-Zbran@{Inventar\-Zbran}!get\-Bonus\-Zkusenosti@{get\-Bonus\-Zkusenosti}}
+\index{get\-Bonus\-Zkusenosti@{get\-Bonus\-Zkusenosti}!InventarZbran@{Inventar\-Zbran}}
+\subsubsection[{get\-Bonus\-Zkusenosti}]{\setlength{\rightskip}{0pt plus 5cm}float Inventar\-Zbran\-::get\-Bonus\-Zkusenosti (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_inventar_zbran_a2fcbac8c9c47e1f6933e718a6bff2a40}
+/ Metoda, ktera vraci bonusove zkusenosti Zbrane v inventari -\/ vraci vzdy 0. \hypertarget{class_inventar_zbran_ae9411d84f602cb5f6bcd8cee3d9f3083}{\index{Inventar\-Zbran@{Inventar\-Zbran}!get\-Cislo\-Itemu@{get\-Cislo\-Itemu}}
+\index{get\-Cislo\-Itemu@{get\-Cislo\-Itemu}!InventarZbran@{Inventar\-Zbran}}
+\subsubsection[{get\-Cislo\-Itemu}]{\setlength{\rightskip}{0pt plus 5cm}int Inventar\-Zbran\-::get\-Cislo\-Itemu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_inventar_zbran_ae9411d84f602cb5f6bcd8cee3d9f3083}
+/ Metoda, ktera vraci cislo Zbrane v inventari. \hypertarget{class_inventar_zbran_a80beef21c29ac53f0f3057572b454999}{\index{Inventar\-Zbran@{Inventar\-Zbran}!get\-Hodnota\-Itemu@{get\-Hodnota\-Itemu}}
+\index{get\-Hodnota\-Itemu@{get\-Hodnota\-Itemu}!InventarZbran@{Inventar\-Zbran}}
+\subsubsection[{get\-Hodnota\-Itemu}]{\setlength{\rightskip}{0pt plus 5cm}int Inventar\-Zbran\-::get\-Hodnota\-Itemu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_inventar_zbran_a80beef21c29ac53f0f3057572b454999}
+/ Metoda, ktera vraci hodnotu Zbrane v inventari. \hypertarget{class_inventar_zbran_ab380d53dfadaeedac7c775cbd6e6ae15}{\index{Inventar\-Zbran@{Inventar\-Zbran}!get\-Nazev\-Itemu@{get\-Nazev\-Itemu}}
+\index{get\-Nazev\-Itemu@{get\-Nazev\-Itemu}!InventarZbran@{Inventar\-Zbran}}
+\subsubsection[{get\-Nazev\-Itemu}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Inventar\-Zbran\-::get\-Nazev\-Itemu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_inventar_zbran_ab380d53dfadaeedac7c775cbd6e6ae15}
+/ Metoda, ktera vraci nazev Zbrane v inventari. \hypertarget{class_inventar_zbran_a1cf8eea2896a336c6f16befd77a105ea}{\index{Inventar\-Zbran@{Inventar\-Zbran}!nova\-Zbran@{nova\-Zbran}}
+\index{nova\-Zbran@{nova\-Zbran}!InventarZbran@{Inventar\-Zbran}}
+\subsubsection[{nova\-Zbran}]{\setlength{\rightskip}{0pt plus 5cm}void Inventar\-Zbran\-::nova\-Zbran (
+\begin{DoxyParamCaption}
+\item[{int}]{druh\-Zbrane}
+\end{DoxyParamCaption}
+)}}\label{class_inventar_zbran_a1cf8eea2896a336c6f16befd77a105ea}
+Toto je metoda ktera nam pouze zobrazi hlasku, ze jsme obdrzeli novou \hyperlink{class_zbran}{Zbran} a zaroven vypise jeji bonusovou silu. \hypertarget{class_inventar_zbran_add49cb1b8e8b7039bbce2cec95ab7231}{\index{Inventar\-Zbran@{Inventar\-Zbran}!vlozeni\-Zbran@{vlozeni\-Zbran}}
+\index{vlozeni\-Zbran@{vlozeni\-Zbran}!InventarZbran@{Inventar\-Zbran}}
+\subsubsection[{vlozeni\-Zbran}]{\setlength{\rightskip}{0pt plus 5cm}void Inventar\-Zbran\-::vlozeni\-Zbran (
+\begin{DoxyParamCaption}
+\item[{{\bf Pozice2d} $\ast$}]{moje\-Pozice, }
+\item[{{\bf Pozice\-Item} $\ast$}]{mistni\-Item}
+\end{DoxyParamCaption}
+)}}\label{class_inventar_zbran_add49cb1b8e8b7039bbce2cec95ab7231}
+Metoda, za pomoci ktere vlozime \hyperlink{class_item}{Item} (\hyperlink{class_zbran}{Zbran}), na volnou pozici ve vektoru m\-\_\-nesene\-Zbrane\-Inventar. Tedy vlozime z urcite Mistnosti \hyperlink{class_zbran}{Zbran} od urcitych souradnicich do Inventare \hyperlink{class_zbran}{Zbran}. \hypertarget{class_inventar_zbran_a2980b1c182c6454a6a67cb445024929b}{\index{Inventar\-Zbran@{Inventar\-Zbran}!vypis\-Zbran@{vypis\-Zbran}}
+\index{vypis\-Zbran@{vypis\-Zbran}!InventarZbran@{Inventar\-Zbran}}
+\subsubsection[{vypis\-Zbran}]{\setlength{\rightskip}{0pt plus 5cm}void Inventar\-Zbran\-::vypis\-Zbran (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_inventar_zbran_a2980b1c182c6454a6a67cb445024929b}
+Metoda, ktera nam za pomoci for cyklu vypise cely vektor Zbrani (Inventar \hyperlink{class_zbroj}{Zbroj}). \hypertarget{class_inventar_zbran_a38dce51d0dd332f5734af26860041f17}{\index{Inventar\-Zbran@{Inventar\-Zbran}!zahod\-Zbran@{zahod\-Zbran}}
+\index{zahod\-Zbran@{zahod\-Zbran}!InventarZbran@{Inventar\-Zbran}}
+\subsubsection[{zahod\-Zbran}]{\setlength{\rightskip}{0pt plus 5cm}void Inventar\-Zbran\-::zahod\-Zbran (
+\begin{DoxyParamCaption}
+\item[{int}]{druh\-Zbrane}
+\end{DoxyParamCaption}
+)}}\label{class_inventar_zbran_a38dce51d0dd332f5734af26860041f17}
+Tato metoda vyzaduje zadani, kterou \hyperlink{class_zbran}{Zbran} chceme vyhodit, nasledne se zepta na potvrzeni. Pote zjisti jestli v poli vektoru vubec nejaka \hyperlink{class_zbran}{Zbran} je a nasledne ji zahodi, neboli priradi poli prazdnou hodnotu. 
+
+\subsection{Member Data Documentation}
+\hypertarget{class_inventar_zbran_a324d36769f1d1d55da5453aaf3089f56}{\index{Inventar\-Zbran@{Inventar\-Zbran}!m\-\_\-nesene\-Zbrane\-Inventar@{m\-\_\-nesene\-Zbrane\-Inventar}}
+\index{m\-\_\-nesene\-Zbrane\-Inventar@{m\-\_\-nesene\-Zbrane\-Inventar}!InventarZbran@{Inventar\-Zbran}}
+\subsubsection[{m\-\_\-nesene\-Zbrane\-Inventar}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<${\bf Item}$\ast$$>$ Inventar\-Zbran\-::m\-\_\-nesene\-Zbrane\-Inventar}}\label{class_inventar_zbran_a324d36769f1d1d55da5453aaf3089f56}
+Atribut, typu vekter, diky kteremu muze Inventar \hyperlink{class_zbran}{Zbran} obsahovat vice Zbrani. Je samozreme, ze vsechny atributy musi byt public, ale diky zvolene metode, aby \hyperlink{class_hrdina}{Hrdina} mohl uchopit zbran, se mi nepodarila naprogramovat jina moznost. 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+B\-:/Škola/\-VŠ/\-Z\-O\-O/1. semestr/\-Projekt/\-Projekt -\/ Jakub Kubišta, E\-I/\-Projekt -\/ Dungeons and Dragons/Inventar\-Zbran.\-h\item 
+B\-:/Škola/\-VŠ/\-Z\-O\-O/1. semestr/\-Projekt/\-Projekt -\/ Jakub Kubišta, E\-I/\-Projekt -\/ Dungeons and Dragons/Inventar\-Zbran.\-cpp\end{DoxyCompactItemize}

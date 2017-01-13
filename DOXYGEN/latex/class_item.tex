@@ -1,0 +1,139 @@
+\hypertarget{class_item}{\section{Item Class Reference}
+\label{class_item}\index{Item@{Item}}
+}
+
+
+Abstraktni Trida reprezentujici jednotlive Veci -\/ Objekty (Itemy) po mape v Mistnostech.  
+
+
+
+
+{\ttfamily \#include $<$Item.\-h$>$}
+
+
+
+Inheritance diagram for Item\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_item_a7f5571a473f785b279be592bf086aa8b}{{\bfseries Item} (std\-::string nazev\-Itemu, int hodnota\-Itemu)}\label{class_item_a7f5571a473f785b279be592bf086aa8b}
+
+\item 
+virtual std\-::string \hyperlink{class_item_af1d886066fa410a6817ee8ec32ab8be6}{get\-Nazev\-Itemu} ()=0
+\item 
+virtual int \hyperlink{class_item_aa0d6f7871e3f0e3bdba941f875f59ac4}{get\-Hodnota\-Itemu} ()=0
+\item 
+virtual float \hyperlink{class_item_af267b55b4ed21ce91e3512f80cc96109}{get\-Bonus\-Zivoty} ()=0
+\item 
+virtual float \hyperlink{class_item_a004a3bc6615a7c9b31a8d0fb59d4a3ff}{get\-Bonus\-Zkusenosti} ()=0
+\item 
+virtual int \hyperlink{class_item_aa7b177491904b942b256491ba2551f10}{get\-Bonus\-Sila} ()=0
+\item 
+virtual int \hyperlink{class_item_ab02edd0e7734c6cc06af34646aa38d9a}{get\-Bonus\-Obrana} ()=0
+\item 
+virtual \hyperlink{class_item_a11663c84075b78c3ae5e30fdfcd7c458}{$\sim$\-Item} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\-::string \hyperlink{class_item_a29db58e0b33aac30731d99542cd72fa5}{m\-\_\-nazev\-Itemu}
+\item 
+\hypertarget{class_item_aa100d258d3f1fbb2672e2f29abb53f4f}{int {\bfseries m\-\_\-hodnota\-Itemu}}\label{class_item_aa100d258d3f1fbb2672e2f29abb53f4f}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Abstraktni Trida reprezentujici jednotlive Veci -\/ Objekty (Itemy) po mape v Mistnostech. 
+
+Zde je videt typicky polymorfismus, kde abstraktni trida \hyperlink{class_n_p_c}{N\-P\-C} dedi svoje ciste virtualni metody do svych potomku, ktere tedy jeste prebiraji jeji atributy. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_item_a11663c84075b78c3ae5e30fdfcd7c458}{\index{Item@{Item}!$\sim$\-Item@{$\sim$\-Item}}
+\index{$\sim$\-Item@{$\sim$\-Item}!Item@{Item}}
+\subsubsection[{$\sim$\-Item}]{\setlength{\rightskip}{0pt plus 5cm}Item\-::$\sim$\-Item (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_item_a11663c84075b78c3ae5e30fdfcd7c458}
+/ Tridy, ktere budou mit potomky by mely mit virtualni destruktor, pak se zavola vzdy destruktor spravneho potomka V tride \hyperlink{class_pozice_item}{Pozice\-Item}, ktera nam umozni umistit kde bude jaky \hyperlink{class_item}{Item}, jsou metody vymaz konkretni \hyperlink{class_item}{Item} a vymaz vsechny Itemy, diky tomu nesmi chybet destruktor 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_item_ab02edd0e7734c6cc06af34646aa38d9a}{\index{Item@{Item}!get\-Bonus\-Obrana@{get\-Bonus\-Obrana}}
+\index{get\-Bonus\-Obrana@{get\-Bonus\-Obrana}!Item@{Item}}
+\subsubsection[{get\-Bonus\-Obrana}]{\setlength{\rightskip}{0pt plus 5cm}virtual int Item\-::get\-Bonus\-Obrana (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_item_ab02edd0e7734c6cc06af34646aa38d9a}
+/ Ciste virtualni metoda, ktera se dedi do potomku \hyperlink{class_item_lektvar}{Item\-Lektvar}, \hyperlink{class_item_zbran}{Item\-Zbran}, \hyperlink{class_item_zbroj}{Item\-Zbroj}, kde je vice popsana. 
+
+Implemented in \hyperlink{class_item_lektvar_a0e98e5ebef2a60d2df4dcac1e1e6354a}{Item\-Lektvar}, \hyperlink{class_item_zbran_ae59b0b219bf445432ed2a47c5622cd57}{Item\-Zbran}, and \hyperlink{class_item_zbroj_a2b780670b0ce4bc0a6812bb9c172f48c}{Item\-Zbroj}.
+
+\hypertarget{class_item_aa7b177491904b942b256491ba2551f10}{\index{Item@{Item}!get\-Bonus\-Sila@{get\-Bonus\-Sila}}
+\index{get\-Bonus\-Sila@{get\-Bonus\-Sila}!Item@{Item}}
+\subsubsection[{get\-Bonus\-Sila}]{\setlength{\rightskip}{0pt plus 5cm}virtual int Item\-::get\-Bonus\-Sila (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_item_aa7b177491904b942b256491ba2551f10}
+/ Ciste virtualni metoda, ktera se dedi do potomku \hyperlink{class_item_lektvar}{Item\-Lektvar}, \hyperlink{class_item_zbran}{Item\-Zbran}, \hyperlink{class_item_zbroj}{Item\-Zbroj}, kde je vice popsana. 
+
+Implemented in \hyperlink{class_item_lektvar_af9cb7e14cf2c89a440a4801c50d3fd7d}{Item\-Lektvar}, \hyperlink{class_item_zbroj_afcb8a75f328c9e1a4cc2d1d3c18bd97f}{Item\-Zbroj}, and \hyperlink{class_item_zbran_a1b26b9a921a42b64f0ce3393dbca349c}{Item\-Zbran}.
+
+\hypertarget{class_item_af267b55b4ed21ce91e3512f80cc96109}{\index{Item@{Item}!get\-Bonus\-Zivoty@{get\-Bonus\-Zivoty}}
+\index{get\-Bonus\-Zivoty@{get\-Bonus\-Zivoty}!Item@{Item}}
+\subsubsection[{get\-Bonus\-Zivoty}]{\setlength{\rightskip}{0pt plus 5cm}virtual float Item\-::get\-Bonus\-Zivoty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_item_af267b55b4ed21ce91e3512f80cc96109}
+/ Ciste virtualni metoda, ktera se dedi do potomku \hyperlink{class_item_lektvar}{Item\-Lektvar}, \hyperlink{class_item_zbran}{Item\-Zbran}, \hyperlink{class_item_zbroj}{Item\-Zbroj}, kde je vice popsana. 
+
+Implemented in \hyperlink{class_item_zbran_af758a0f1e94e30c166956d11e8bd2bd5}{Item\-Zbran}, \hyperlink{class_item_zbroj_a03c46d5044beacd0749ca18b5335a54c}{Item\-Zbroj}, and \hyperlink{class_item_lektvar_a51b8769248452d811bf04cb9b4b81d2b}{Item\-Lektvar}.
+
+\hypertarget{class_item_a004a3bc6615a7c9b31a8d0fb59d4a3ff}{\index{Item@{Item}!get\-Bonus\-Zkusenosti@{get\-Bonus\-Zkusenosti}}
+\index{get\-Bonus\-Zkusenosti@{get\-Bonus\-Zkusenosti}!Item@{Item}}
+\subsubsection[{get\-Bonus\-Zkusenosti}]{\setlength{\rightskip}{0pt plus 5cm}virtual float Item\-::get\-Bonus\-Zkusenosti (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_item_a004a3bc6615a7c9b31a8d0fb59d4a3ff}
+/ Ciste virtualni metoda, ktera se dedi do potomku \hyperlink{class_item_lektvar}{Item\-Lektvar}, \hyperlink{class_item_zbran}{Item\-Zbran}, \hyperlink{class_item_zbroj}{Item\-Zbroj}, kde je vice popsana. 
+
+Implemented in \hyperlink{class_item_zbran_acec2de6de0d2555786d4518129fd22b9}{Item\-Zbran}, \hyperlink{class_item_zbroj_ab809828ad68d3873ff294a980a1c7a81}{Item\-Zbroj}, and \hyperlink{class_item_lektvar_a93544ac093998897aec4f59e9a27c5d5}{Item\-Lektvar}.
+
+\hypertarget{class_item_aa0d6f7871e3f0e3bdba941f875f59ac4}{\index{Item@{Item}!get\-Hodnota\-Itemu@{get\-Hodnota\-Itemu}}
+\index{get\-Hodnota\-Itemu@{get\-Hodnota\-Itemu}!Item@{Item}}
+\subsubsection[{get\-Hodnota\-Itemu}]{\setlength{\rightskip}{0pt plus 5cm}virtual int Item\-::get\-Hodnota\-Itemu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_item_aa0d6f7871e3f0e3bdba941f875f59ac4}
+/ Ciste virtualni metoda, ktera se dedi do potomku \hyperlink{class_item_lektvar}{Item\-Lektvar}, \hyperlink{class_item_zbran}{Item\-Zbran}, \hyperlink{class_item_zbroj}{Item\-Zbroj}, kde je vice popsana. 
+
+Implemented in \hyperlink{class_item_lektvar_a260bbc80f2458b7f34a2a394783786c8}{Item\-Lektvar}, \hyperlink{class_item_zbran_a998f92d5f818c80f2ca8955e0fb7fe12}{Item\-Zbran}, and \hyperlink{class_item_zbroj_a77ec9d70488a8ea7145a70586c007a74}{Item\-Zbroj}.
+
+\hypertarget{class_item_af1d886066fa410a6817ee8ec32ab8be6}{\index{Item@{Item}!get\-Nazev\-Itemu@{get\-Nazev\-Itemu}}
+\index{get\-Nazev\-Itemu@{get\-Nazev\-Itemu}!Item@{Item}}
+\subsubsection[{get\-Nazev\-Itemu}]{\setlength{\rightskip}{0pt plus 5cm}virtual std\-::string Item\-::get\-Nazev\-Itemu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_item_af1d886066fa410a6817ee8ec32ab8be6}
+/ Ciste virtualni metoda, ktera se dedi do potomku \hyperlink{class_item_lektvar}{Item\-Lektvar}, \hyperlink{class_item_zbran}{Item\-Zbran}, \hyperlink{class_item_zbroj}{Item\-Zbroj}, kde je vice popsana. 
+
+Implemented in \hyperlink{class_item_lektvar_a4d29516a28d6e5f14450376646675edd}{Item\-Lektvar}, \hyperlink{class_item_zbran_af12668ffabfabfe9a5f2d378e35880f1}{Item\-Zbran}, and \hyperlink{class_item_zbroj_a36884ef066b5e6c851ad0856320a31c1}{Item\-Zbroj}.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_item_a29db58e0b33aac30731d99542cd72fa5}{\index{Item@{Item}!m\-\_\-nazev\-Itemu@{m\-\_\-nazev\-Itemu}}
+\index{m\-\_\-nazev\-Itemu@{m\-\_\-nazev\-Itemu}!Item@{Item}}
+\subsubsection[{m\-\_\-nazev\-Itemu}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Item\-::m\-\_\-nazev\-Itemu\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_item_a29db58e0b33aac30731d99542cd72fa5}
+/ Atributy, ktere se dedi do \hyperlink{class_item_lektvar}{Item\-Lektvar}, \hyperlink{class_item_zbran}{Item\-Zbran}, \hyperlink{class_item_zbroj}{Item\-Zbroj}, kde maji odlisne parametry. 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+B\-:/Škola/\-VŠ/\-Z\-O\-O/1. semestr/\-Projekt/\-Projekt -\/ Jakub Kubišta, E\-I/\-Projekt -\/ Dungeons and Dragons/Item.\-h\item 
+B\-:/Škola/\-VŠ/\-Z\-O\-O/1. semestr/\-Projekt/\-Projekt -\/ Jakub Kubišta, E\-I/\-Projekt -\/ Dungeons and Dragons/Item.\-cpp\end{DoxyCompactItemize}

@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="LokaceNPC",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_lokace_n_p_c.html",tooltip="Trida, ktera ma za ucel propojit a osetrit propojeni mezi NPC v Mistnosti a mezi Hrdinou. U vetsiny metod se jedna spise o vystup textu. "];
+}

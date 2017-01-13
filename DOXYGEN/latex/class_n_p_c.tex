@@ -1,0 +1,174 @@
+\hypertarget{class_n_p_c}{\section{N\-P\-C Class Reference}
+\label{class_n_p_c}\index{N\-P\-C@{N\-P\-C}}
+}
+
+
+Abstraktni Trida reprezentujici jednotlive Nepratele (\hyperlink{class_n_p_c}{N\-P\-C}) po mape v Mistnostech.  
+
+
+
+
+{\ttfamily \#include $<$N\-P\-C.\-h$>$}
+
+
+
+Inheritance diagram for N\-P\-C\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_n_p_c_a59b45912692304d555df9d6957046962}{N\-P\-C} ()
+\item 
+virtual std\-::string \hyperlink{class_n_p_c_aae64f14a7a2e4f56ca574513babc41e8}{get\-Nazev\-N\-P\-C} ()=0
+\item 
+virtual int \hyperlink{class_n_p_c_ad396ca543207b0535312b8f5e1e52d10}{get\-Obtiznost} ()=0
+\item 
+virtual float \hyperlink{class_n_p_c_a89a49559c82edfde6ea567c51cc8fff3}{get\-Zivoty} ()=0
+\item 
+virtual float \hyperlink{class_n_p_c_af703dfd16eb06c832941afd1c3651b27}{get\-Max\-Zivoty} ()=0
+\item 
+virtual int \hyperlink{class_n_p_c_af86f56452f73db42d39de9bbd6c7e1e0}{get\-Sila} ()=0
+\item 
+virtual int \hyperlink{class_n_p_c_ae9234bcd90e10d872643a5b542ea4ad9}{get\-Obrana} ()=0
+\item 
+virtual int \hyperlink{class_n_p_c_a1379d09aacf9a3db8f0b92eeb811f4cf}{get\-Magie} ()=0
+\item 
+virtual int \hyperlink{class_n_p_c_a3987735754198ab346e6dc09a5d24bbf}{get\-Zkusenosti\-Z\-Vitezstvi} ()=0
+\item 
+virtual \hyperlink{class_n_p_c_a67c0caca129b56c82bb7ec8bce6be52b}{$\sim$\-N\-P\-C} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\-::string \hyperlink{class_n_p_c_a088d47b313f2eb585069575996e7d746}{m\-\_\-nazev\-N\-P\-C}
+\item 
+\hypertarget{class_n_p_c_a80cafef48f198523d2640d1485fda11b}{int {\bfseries m\-\_\-obtiznost}}\label{class_n_p_c_a80cafef48f198523d2640d1485fda11b}
+
+\item 
+\hypertarget{class_n_p_c_a77791315f8bf036da95a1fc6fd434461}{float {\bfseries m\-\_\-max\-Zivoty}}\label{class_n_p_c_a77791315f8bf036da95a1fc6fd434461}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Abstraktni Trida reprezentujici jednotlive Nepratele (\hyperlink{class_n_p_c}{N\-P\-C}) po mape v Mistnostech. 
+
+Zde je videt typicky polymorfismus, kde abstraktni trida \hyperlink{class_n_p_c}{N\-P\-C} dedi svoje ciste virtualni metody do svych potomku, ktere tedy jeste prebiraji jeji atributy. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_n_p_c_a59b45912692304d555df9d6957046962}{\index{N\-P\-C@{N\-P\-C}!N\-P\-C@{N\-P\-C}}
+\index{N\-P\-C@{N\-P\-C}!NPC@{N\-P\-C}}
+\subsubsection[{N\-P\-C}]{\setlength{\rightskip}{0pt plus 5cm}N\-P\-C\-::\-N\-P\-C (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_n_p_c_a59b45912692304d555df9d6957046962}
+/ Konstruktor se samozrejme nededi, navic je bezparametricky. \hypertarget{class_n_p_c_a67c0caca129b56c82bb7ec8bce6be52b}{\index{N\-P\-C@{N\-P\-C}!$\sim$\-N\-P\-C@{$\sim$\-N\-P\-C}}
+\index{$\sim$\-N\-P\-C@{$\sim$\-N\-P\-C}!NPC@{N\-P\-C}}
+\subsubsection[{$\sim$\-N\-P\-C}]{\setlength{\rightskip}{0pt plus 5cm}N\-P\-C\-::$\sim$\-N\-P\-C (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_n_p_c_a67c0caca129b56c82bb7ec8bce6be52b}
+/ Tridy, ktere budou mit potomky by mely mit virtualni destruktor, pak se zavola vzdy destruktor spravneho potomka V tride \hyperlink{class_pozice_n_p_c}{Pozice\-N\-P\-C}, ktera nam umozni umistit kde bude jake \hyperlink{class_n_p_c}{N\-P\-C}, jsou metody vymaz konkretni \hyperlink{class_n_p_c}{N\-P\-C} a vymaz vsechny \hyperlink{class_n_p_c}{N\-P\-C}, diky tomu nesmi chybet destruktor 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_n_p_c_a1379d09aacf9a3db8f0b92eeb811f4cf}{\index{N\-P\-C@{N\-P\-C}!get\-Magie@{get\-Magie}}
+\index{get\-Magie@{get\-Magie}!NPC@{N\-P\-C}}
+\subsubsection[{get\-Magie}]{\setlength{\rightskip}{0pt plus 5cm}virtual int N\-P\-C\-::get\-Magie (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_n_p_c_a1379d09aacf9a3db8f0b92eeb811f4cf}
+/ Ciste virtualni metoda, ktera se dedi do potomku \hyperlink{class_vlk}{Vlk}, \hyperlink{class_drak}{Drak} a \hyperlink{class_ork}{Ork}, kde je vice popsana. 
+
+Implemented in \hyperlink{class_drak_a9e874d27abc9bb77d4f58fb9b35f33b7}{Drak}, \hyperlink{class_ork_a7a2f1e1bfe6d2d4fe9bd59b0ef26eeed}{Ork}, and \hyperlink{class_vlk_ad24decd2d779359e30445390d0000a2f}{Vlk}.
+
+\hypertarget{class_n_p_c_af703dfd16eb06c832941afd1c3651b27}{\index{N\-P\-C@{N\-P\-C}!get\-Max\-Zivoty@{get\-Max\-Zivoty}}
+\index{get\-Max\-Zivoty@{get\-Max\-Zivoty}!NPC@{N\-P\-C}}
+\subsubsection[{get\-Max\-Zivoty}]{\setlength{\rightskip}{0pt plus 5cm}virtual float N\-P\-C\-::get\-Max\-Zivoty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_n_p_c_af703dfd16eb06c832941afd1c3651b27}
+/ Ciste virtualni metoda, ktera se dedi do potomku \hyperlink{class_vlk}{Vlk}, \hyperlink{class_drak}{Drak} a \hyperlink{class_ork}{Ork}, kde je vice popsana. 
+
+Implemented in \hyperlink{class_drak_ae3401cac281916731f1ebd7ae75e4974}{Drak}, \hyperlink{class_ork_a659119fd3a89a219801f29af1cca71fa}{Ork}, and \hyperlink{class_vlk_a9d5f661751adda7584a9f07efa50d780}{Vlk}.
+
+\hypertarget{class_n_p_c_aae64f14a7a2e4f56ca574513babc41e8}{\index{N\-P\-C@{N\-P\-C}!get\-Nazev\-N\-P\-C@{get\-Nazev\-N\-P\-C}}
+\index{get\-Nazev\-N\-P\-C@{get\-Nazev\-N\-P\-C}!NPC@{N\-P\-C}}
+\subsubsection[{get\-Nazev\-N\-P\-C}]{\setlength{\rightskip}{0pt plus 5cm}virtual std\-::string N\-P\-C\-::get\-Nazev\-N\-P\-C (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_n_p_c_aae64f14a7a2e4f56ca574513babc41e8}
+/ Ciste virtualni metoda, ktera se dedi do potomku \hyperlink{class_vlk}{Vlk}, \hyperlink{class_drak}{Drak} a \hyperlink{class_ork}{Ork}, kde je vice popsana. 
+
+Implemented in \hyperlink{class_drak_aa05fee73171bd5cc51c775219563457d}{Drak}, \hyperlink{class_ork_a313127e491b2807419c6af93466069c8}{Ork}, and \hyperlink{class_vlk_a4d9a2b41320baf84f24907f835951be1}{Vlk}.
+
+\hypertarget{class_n_p_c_ae9234bcd90e10d872643a5b542ea4ad9}{\index{N\-P\-C@{N\-P\-C}!get\-Obrana@{get\-Obrana}}
+\index{get\-Obrana@{get\-Obrana}!NPC@{N\-P\-C}}
+\subsubsection[{get\-Obrana}]{\setlength{\rightskip}{0pt plus 5cm}virtual int N\-P\-C\-::get\-Obrana (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_n_p_c_ae9234bcd90e10d872643a5b542ea4ad9}
+/ Ciste virtualni metoda, ktera se dedi do potomku \hyperlink{class_vlk}{Vlk}, \hyperlink{class_drak}{Drak} a \hyperlink{class_ork}{Ork}, kde je vice popsana. 
+
+Implemented in \hyperlink{class_drak_a0b7ee8e2ab6418a859c55b50b5127f95}{Drak}, \hyperlink{class_ork_ac4f4c96859423e095532d32ad4e79227}{Ork}, and \hyperlink{class_vlk_accf315769db7678bfef439436a5508d0}{Vlk}.
+
+\hypertarget{class_n_p_c_ad396ca543207b0535312b8f5e1e52d10}{\index{N\-P\-C@{N\-P\-C}!get\-Obtiznost@{get\-Obtiznost}}
+\index{get\-Obtiznost@{get\-Obtiznost}!NPC@{N\-P\-C}}
+\subsubsection[{get\-Obtiznost}]{\setlength{\rightskip}{0pt plus 5cm}virtual int N\-P\-C\-::get\-Obtiznost (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_n_p_c_ad396ca543207b0535312b8f5e1e52d10}
+/ Ciste virtualni metoda, ktera se dedi do potomku \hyperlink{class_vlk}{Vlk}, \hyperlink{class_drak}{Drak} a \hyperlink{class_ork}{Ork}, kde je vice popsana. 
+
+Implemented in \hyperlink{class_drak_ac6521d606193290f6efbfc6eccb189eb}{Drak}, \hyperlink{class_ork_a4fa8dbfe993bba5b088c58332c23b0e4}{Ork}, and \hyperlink{class_vlk_a8d4d8fc4e2f94d67bc829a0ed6b139eb}{Vlk}.
+
+\hypertarget{class_n_p_c_af86f56452f73db42d39de9bbd6c7e1e0}{\index{N\-P\-C@{N\-P\-C}!get\-Sila@{get\-Sila}}
+\index{get\-Sila@{get\-Sila}!NPC@{N\-P\-C}}
+\subsubsection[{get\-Sila}]{\setlength{\rightskip}{0pt plus 5cm}virtual int N\-P\-C\-::get\-Sila (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_n_p_c_af86f56452f73db42d39de9bbd6c7e1e0}
+/ Ciste virtualni metoda, ktera se dedi do potomku \hyperlink{class_vlk}{Vlk}, \hyperlink{class_drak}{Drak} a \hyperlink{class_ork}{Ork}, kde je vice popsana. 
+
+Implemented in \hyperlink{class_drak_ae325f0aa586d1ed2a29a4f61b8050d20}{Drak}, \hyperlink{class_ork_a34700989b23fa05c2968e1316c626078}{Ork}, and \hyperlink{class_vlk_a3a3889352370da0ab4bbfe70d4d54055}{Vlk}.
+
+\hypertarget{class_n_p_c_a89a49559c82edfde6ea567c51cc8fff3}{\index{N\-P\-C@{N\-P\-C}!get\-Zivoty@{get\-Zivoty}}
+\index{get\-Zivoty@{get\-Zivoty}!NPC@{N\-P\-C}}
+\subsubsection[{get\-Zivoty}]{\setlength{\rightskip}{0pt plus 5cm}virtual float N\-P\-C\-::get\-Zivoty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_n_p_c_a89a49559c82edfde6ea567c51cc8fff3}
+/ Ciste virtualni metoda, ktera se dedi do potomku \hyperlink{class_vlk}{Vlk}, \hyperlink{class_drak}{Drak} a \hyperlink{class_ork}{Ork}, kde je vice popsana. 
+
+Implemented in \hyperlink{class_drak_a4d22ef3d2ec5603fb1d16862f53af8e8}{Drak}, \hyperlink{class_ork_a807ea22358789fb12db54839891b3236}{Ork}, and \hyperlink{class_vlk_a5d6fa6d0468d2e09ce91b548acf73818}{Vlk}.
+
+\hypertarget{class_n_p_c_a3987735754198ab346e6dc09a5d24bbf}{\index{N\-P\-C@{N\-P\-C}!get\-Zkusenosti\-Z\-Vitezstvi@{get\-Zkusenosti\-Z\-Vitezstvi}}
+\index{get\-Zkusenosti\-Z\-Vitezstvi@{get\-Zkusenosti\-Z\-Vitezstvi}!NPC@{N\-P\-C}}
+\subsubsection[{get\-Zkusenosti\-Z\-Vitezstvi}]{\setlength{\rightskip}{0pt plus 5cm}virtual int N\-P\-C\-::get\-Zkusenosti\-Z\-Vitezstvi (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_n_p_c_a3987735754198ab346e6dc09a5d24bbf}
+/ Ciste virtualni metoda, ktera se dedi do potomku \hyperlink{class_vlk}{Vlk}, \hyperlink{class_drak}{Drak} a \hyperlink{class_ork}{Ork}, kde je vice popsana. 
+
+Implemented in \hyperlink{class_drak_ae5a7ad1828dedaa927a32f943be2629b}{Drak}, \hyperlink{class_ork_a036616c8fd6b21e7f16c799e1587757a}{Ork}, and \hyperlink{class_vlk_aa635e1c08d5a7946904b5f3885a09197}{Vlk}.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_n_p_c_a088d47b313f2eb585069575996e7d746}{\index{N\-P\-C@{N\-P\-C}!m\-\_\-nazev\-N\-P\-C@{m\-\_\-nazev\-N\-P\-C}}
+\index{m\-\_\-nazev\-N\-P\-C@{m\-\_\-nazev\-N\-P\-C}!NPC@{N\-P\-C}}
+\subsubsection[{m\-\_\-nazev\-N\-P\-C}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string N\-P\-C\-::m\-\_\-nazev\-N\-P\-C\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_n_p_c_a088d47b313f2eb585069575996e7d746}
+/ Atributy, ktere se dedi do \hyperlink{class_drak}{Drak}, \hyperlink{class_vlk}{Vlk}, \hyperlink{class_ork}{Ork}, kde maji odlisne parametry. 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+B\-:/Škola/\-VŠ/\-Z\-O\-O/1. semestr/\-Projekt/\-Projekt -\/ Jakub Kubišta, E\-I/\-Projekt -\/ Dungeons and Dragons/N\-P\-C.\-h\item 
+B\-:/Škola/\-VŠ/\-Z\-O\-O/1. semestr/\-Projekt/\-Projekt -\/ Jakub Kubišta, E\-I/\-Projekt -\/ Dungeons and Dragons/N\-P\-C.\-cpp\end{DoxyCompactItemize}

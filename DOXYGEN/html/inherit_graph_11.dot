@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="modelHra::HraciDeska",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmodel_hra_1_1_hraci_deska.html",tooltip="Dvojrozmerne pole cisel, ktere ma schopnost ulozit se do souboru a nacist se z nej. "];
+}

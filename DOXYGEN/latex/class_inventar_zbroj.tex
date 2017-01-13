@@ -1,0 +1,152 @@
+\hypertarget{class_inventar_zbroj}{\section{Inventar\-Zbroj Class Reference}
+\label{class_inventar_zbroj}\index{Inventar\-Zbroj@{Inventar\-Zbroj}}
+}
+
+
+Trida reprezentujici Inventar Zbroji.  
+
+
+
+
+{\ttfamily \#include $<$Inventar\-Zbroj.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_inventar_zbroj_afc49428ae1367838635c00439d060e41}{Inventar\-Zbroj} ()
+\item 
+void \hyperlink{class_inventar_zbroj_ae9cb1a32f705afa700185f489d45eeef}{vlozeni\-Zbroj} (\hyperlink{struct_pozice2d}{Pozice2d} $\ast$moje\-Pozice, \hyperlink{class_pozice_item}{Pozice\-Item} $\ast$mistni\-Item)
+\item 
+void \hyperlink{class_inventar_zbroj_ad663783ee8a2dc9064b5d75e2a8599b5}{zahod\-Zbroj} (int druh\-Zbroje)
+\item 
+void \hyperlink{class_inventar_zbroj_ad29ae308b3f77beaa85060c7eb4f837e}{nova\-Zbroj} (int druh\-Zbroje)
+\item 
+std\-::string \hyperlink{class_inventar_zbroj_a029b2828d77e4802b8c91abbb971afd3}{get\-Nazev\-Itemu} ()
+\item 
+int \hyperlink{class_inventar_zbroj_af7742f89dd27203c398eb9faababef5c}{get\-Cislo\-Itemu} ()
+\item 
+int \hyperlink{class_inventar_zbroj_a9120ac5222b2aa739feddf6ccdb7c8fe}{get\-Bonus\-Obrana} ()
+\item 
+int \hyperlink{class_inventar_zbroj_ac103ffc2c2c398098f225366e30822b8}{get\-Hodnota\-Itemu} ()
+\item 
+int \hyperlink{class_inventar_zbroj_a269a2c1ee91c1c2b08d8b4bc48f17146}{get\-Bonus\-Sila} ()
+\item 
+float \hyperlink{class_inventar_zbroj_aa84e609d3e8c98796943eeb7a4a61dd5}{get\-Bonus\-Zivoty} ()
+\item 
+float \hyperlink{class_inventar_zbroj_a7f598ed27815c62b687367155df254d6}{get\-Bonus\-Zkusenosti} ()
+\item 
+void \hyperlink{class_inventar_zbroj_a6f74ecfadb7253ad6cb913cbee5b6ff0}{vypis\-Zbroj} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\-::vector$<$ \hyperlink{class_item}{Item} $\ast$ $>$ \hyperlink{class_inventar_zbroj_a273cf8f2260d6287911be24604b3a32f}{m\-\_\-nesene\-Zbroje\-Inventar}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Trida reprezentujici Inventar Zbroji. 
+
+Tato trida ma urcity pocet Zbroji, ktere jsou definovany jako vektor. Trida ma urcitou kapacitu, ktera je nastavena v konstruktoru. Jednotlive Zbroje jsou do vektoru umisteny z urcite pozice Itemu. Kazde pole vektoru odpovida jedne vlozene Zbroji. Obsahuje metody vkladani, piti a zahazovani jednotlivych Zbroji. Trida je urcena pro Hrdinu, ktery ji vlastni pod atributem m\-\_\-inventar\-Zbroj. Jednotlive metody jsou volany jak v trdie \hyperlink{class_hrdina}{Hrdina} v pomocne tride Hrdiny, ktera ma nazev \hyperlink{class_hrdina}{Hrdina} Director. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_inventar_zbroj_afc49428ae1367838635c00439d060e41}{\index{Inventar\-Zbroj@{Inventar\-Zbroj}!Inventar\-Zbroj@{Inventar\-Zbroj}}
+\index{Inventar\-Zbroj@{Inventar\-Zbroj}!InventarZbroj@{Inventar\-Zbroj}}
+\subsubsection[{Inventar\-Zbroj}]{\setlength{\rightskip}{0pt plus 5cm}Inventar\-Zbroj\-::\-Inventar\-Zbroj (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_inventar_zbroj_afc49428ae1367838635c00439d060e41}
+Bezparametricky konstruktor, ktery se vytvori pri vytvoreni Hrdiny Pocet Zbroji nastaven na 0, kapacita je 5 a logicky vstup je 1 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_inventar_zbroj_a9120ac5222b2aa739feddf6ccdb7c8fe}{\index{Inventar\-Zbroj@{Inventar\-Zbroj}!get\-Bonus\-Obrana@{get\-Bonus\-Obrana}}
+\index{get\-Bonus\-Obrana@{get\-Bonus\-Obrana}!InventarZbroj@{Inventar\-Zbroj}}
+\subsubsection[{get\-Bonus\-Obrana}]{\setlength{\rightskip}{0pt plus 5cm}int Inventar\-Zbroj\-::get\-Bonus\-Obrana (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_inventar_zbroj_a9120ac5222b2aa739feddf6ccdb7c8fe}
+/ Metoda, ktera vraci bonusovou obranu Zbroje v inventari. \hypertarget{class_inventar_zbroj_a269a2c1ee91c1c2b08d8b4bc48f17146}{\index{Inventar\-Zbroj@{Inventar\-Zbroj}!get\-Bonus\-Sila@{get\-Bonus\-Sila}}
+\index{get\-Bonus\-Sila@{get\-Bonus\-Sila}!InventarZbroj@{Inventar\-Zbroj}}
+\subsubsection[{get\-Bonus\-Sila}]{\setlength{\rightskip}{0pt plus 5cm}int Inventar\-Zbroj\-::get\-Bonus\-Sila (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_inventar_zbroj_a269a2c1ee91c1c2b08d8b4bc48f17146}
+/ Metoda, ktera vraci bonusovou silu Zbroje v inventari -\/ vraci vzdy 0. \hypertarget{class_inventar_zbroj_aa84e609d3e8c98796943eeb7a4a61dd5}{\index{Inventar\-Zbroj@{Inventar\-Zbroj}!get\-Bonus\-Zivoty@{get\-Bonus\-Zivoty}}
+\index{get\-Bonus\-Zivoty@{get\-Bonus\-Zivoty}!InventarZbroj@{Inventar\-Zbroj}}
+\subsubsection[{get\-Bonus\-Zivoty}]{\setlength{\rightskip}{0pt plus 5cm}float Inventar\-Zbroj\-::get\-Bonus\-Zivoty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_inventar_zbroj_aa84e609d3e8c98796943eeb7a4a61dd5}
+/ Metoda, ktera vraci bonusove zivoty Zbroje v inventari -\/ vraci vzdy 0. \hypertarget{class_inventar_zbroj_a7f598ed27815c62b687367155df254d6}{\index{Inventar\-Zbroj@{Inventar\-Zbroj}!get\-Bonus\-Zkusenosti@{get\-Bonus\-Zkusenosti}}
+\index{get\-Bonus\-Zkusenosti@{get\-Bonus\-Zkusenosti}!InventarZbroj@{Inventar\-Zbroj}}
+\subsubsection[{get\-Bonus\-Zkusenosti}]{\setlength{\rightskip}{0pt plus 5cm}float Inventar\-Zbroj\-::get\-Bonus\-Zkusenosti (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_inventar_zbroj_a7f598ed27815c62b687367155df254d6}
+/ Metoda, ktera vraci bonusove zkusenosti Zbroje v inventari -\/ vraci vzdy 0. \hypertarget{class_inventar_zbroj_af7742f89dd27203c398eb9faababef5c}{\index{Inventar\-Zbroj@{Inventar\-Zbroj}!get\-Cislo\-Itemu@{get\-Cislo\-Itemu}}
+\index{get\-Cislo\-Itemu@{get\-Cislo\-Itemu}!InventarZbroj@{Inventar\-Zbroj}}
+\subsubsection[{get\-Cislo\-Itemu}]{\setlength{\rightskip}{0pt plus 5cm}int Inventar\-Zbroj\-::get\-Cislo\-Itemu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_inventar_zbroj_af7742f89dd27203c398eb9faababef5c}
+/ Metoda, ktera vraci cislo Zbroje v inventari. \hypertarget{class_inventar_zbroj_ac103ffc2c2c398098f225366e30822b8}{\index{Inventar\-Zbroj@{Inventar\-Zbroj}!get\-Hodnota\-Itemu@{get\-Hodnota\-Itemu}}
+\index{get\-Hodnota\-Itemu@{get\-Hodnota\-Itemu}!InventarZbroj@{Inventar\-Zbroj}}
+\subsubsection[{get\-Hodnota\-Itemu}]{\setlength{\rightskip}{0pt plus 5cm}int Inventar\-Zbroj\-::get\-Hodnota\-Itemu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_inventar_zbroj_ac103ffc2c2c398098f225366e30822b8}
+/ Metoda, ktera vraci hodnotu Zbroje v inventari. \hypertarget{class_inventar_zbroj_a029b2828d77e4802b8c91abbb971afd3}{\index{Inventar\-Zbroj@{Inventar\-Zbroj}!get\-Nazev\-Itemu@{get\-Nazev\-Itemu}}
+\index{get\-Nazev\-Itemu@{get\-Nazev\-Itemu}!InventarZbroj@{Inventar\-Zbroj}}
+\subsubsection[{get\-Nazev\-Itemu}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Inventar\-Zbroj\-::get\-Nazev\-Itemu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_inventar_zbroj_a029b2828d77e4802b8c91abbb971afd3}
+/ Metoda, ktera vraci nazev Zbroje v inventari. \hypertarget{class_inventar_zbroj_ad29ae308b3f77beaa85060c7eb4f837e}{\index{Inventar\-Zbroj@{Inventar\-Zbroj}!nova\-Zbroj@{nova\-Zbroj}}
+\index{nova\-Zbroj@{nova\-Zbroj}!InventarZbroj@{Inventar\-Zbroj}}
+\subsubsection[{nova\-Zbroj}]{\setlength{\rightskip}{0pt plus 5cm}void Inventar\-Zbroj\-::nova\-Zbroj (
+\begin{DoxyParamCaption}
+\item[{int}]{druh\-Zbroje}
+\end{DoxyParamCaption}
+)}}\label{class_inventar_zbroj_ad29ae308b3f77beaa85060c7eb4f837e}
+Toto je metoda ktera nam pouze zobrazi hlasku, ze jsme obdrzeli novou \hyperlink{class_zbroj}{Zbroj} a zaroven vypise jeji bonusovou obranu. \hypertarget{class_inventar_zbroj_ae9cb1a32f705afa700185f489d45eeef}{\index{Inventar\-Zbroj@{Inventar\-Zbroj}!vlozeni\-Zbroj@{vlozeni\-Zbroj}}
+\index{vlozeni\-Zbroj@{vlozeni\-Zbroj}!InventarZbroj@{Inventar\-Zbroj}}
+\subsubsection[{vlozeni\-Zbroj}]{\setlength{\rightskip}{0pt plus 5cm}void Inventar\-Zbroj\-::vlozeni\-Zbroj (
+\begin{DoxyParamCaption}
+\item[{{\bf Pozice2d} $\ast$}]{moje\-Pozice, }
+\item[{{\bf Pozice\-Item} $\ast$}]{mistni\-Item}
+\end{DoxyParamCaption}
+)}}\label{class_inventar_zbroj_ae9cb1a32f705afa700185f489d45eeef}
+Metoda, za pomoci ktere vlozime \hyperlink{class_item}{Item} (\hyperlink{class_zbroj}{Zbroj}), na volnou pozici ve vektoru m\-\_\-nesene\-Zbroje\-Inventar. Tedy vlozime z urcite Mistnosti \hyperlink{class_zbroj}{Zbroj} od urcitych souradnicich do Inventare \hyperlink{class_zbroj}{Zbroj}. \hypertarget{class_inventar_zbroj_a6f74ecfadb7253ad6cb913cbee5b6ff0}{\index{Inventar\-Zbroj@{Inventar\-Zbroj}!vypis\-Zbroj@{vypis\-Zbroj}}
+\index{vypis\-Zbroj@{vypis\-Zbroj}!InventarZbroj@{Inventar\-Zbroj}}
+\subsubsection[{vypis\-Zbroj}]{\setlength{\rightskip}{0pt plus 5cm}void Inventar\-Zbroj\-::vypis\-Zbroj (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_inventar_zbroj_a6f74ecfadb7253ad6cb913cbee5b6ff0}
+Metoda, ktera nam za pomoci for cyklu vypise cely vektor Zbroji (Inventar \hyperlink{class_zbroj}{Zbroj}). \hypertarget{class_inventar_zbroj_ad663783ee8a2dc9064b5d75e2a8599b5}{\index{Inventar\-Zbroj@{Inventar\-Zbroj}!zahod\-Zbroj@{zahod\-Zbroj}}
+\index{zahod\-Zbroj@{zahod\-Zbroj}!InventarZbroj@{Inventar\-Zbroj}}
+\subsubsection[{zahod\-Zbroj}]{\setlength{\rightskip}{0pt plus 5cm}void Inventar\-Zbroj\-::zahod\-Zbroj (
+\begin{DoxyParamCaption}
+\item[{int}]{druh\-Zbroje}
+\end{DoxyParamCaption}
+)}}\label{class_inventar_zbroj_ad663783ee8a2dc9064b5d75e2a8599b5}
+Tato metoda vyzaduje zadani, kterou \hyperlink{class_zbroj}{Zbroj} chceme vyhodit, nasledne se zepta na potvrzeni. Pote zjisti jestli v poli vektoru vubec nejaka \hyperlink{class_zbroj}{Zbroj} je a nasledne ji zahodi, neboli priradi poli prazdnou hodnotu. 
+
+\subsection{Member Data Documentation}
+\hypertarget{class_inventar_zbroj_a273cf8f2260d6287911be24604b3a32f}{\index{Inventar\-Zbroj@{Inventar\-Zbroj}!m\-\_\-nesene\-Zbroje\-Inventar@{m\-\_\-nesene\-Zbroje\-Inventar}}
+\index{m\-\_\-nesene\-Zbroje\-Inventar@{m\-\_\-nesene\-Zbroje\-Inventar}!InventarZbroj@{Inventar\-Zbroj}}
+\subsubsection[{m\-\_\-nesene\-Zbroje\-Inventar}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<${\bf Item}$\ast$$>$ Inventar\-Zbroj\-::m\-\_\-nesene\-Zbroje\-Inventar}}\label{class_inventar_zbroj_a273cf8f2260d6287911be24604b3a32f}
+Atribut, typu vekter, diky kteremu muze Inventar \hyperlink{class_zbroj}{Zbroj} obsahovat vice Zbroji. Je samozreme, ze vsechny atributy musi byt public, ale diky zvolene metode, aby \hyperlink{class_hrdina}{Hrdina} mohl uchopit zbran, se mi nepodarila naprogramovat jina moznost. 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+B\-:/Škola/\-VŠ/\-Z\-O\-O/1. semestr/\-Projekt/\-Projekt -\/ Jakub Kubišta, E\-I/\-Projekt -\/ Dungeons and Dragons/Inventar\-Zbroj.\-h\item 
+B\-:/Škola/\-VŠ/\-Z\-O\-O/1. semestr/\-Projekt/\-Projekt -\/ Jakub Kubišta, E\-I/\-Projekt -\/ Dungeons and Dragons/Inventar\-Zbroj.\-cpp\end{DoxyCompactItemize}
